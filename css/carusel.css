@@ -1,0 +1,84 @@
+
+.container {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    padding-top: 300px;
+    left: -400px;
+    perspective: 2000px;
+    display: flex;
+    justify-content: center;
+    }
+
+.carousel-rotate360{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    transform-style: preserve-3d; 
+    animation: rotate360 20s infinite forwards linear;
+    
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: -75px;
+    background-size: cover;
+    background-color: rgba(228, 255, 200, 0.9);
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.9), 0 10px 40px rgba(0, 0, 0, 0.8);
+    display: flex;
+    border-radius: 20px;
+    /*background-color: #ffe92500;*/
+  }
+  
+  span {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: 0.09em;
+    color: black;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("");
+    transform: rotateY(  0deg) translateZ(380px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("");
+      transform: rotateY( 40deg) translateZ(380px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("");
+    transform: rotateY( 80deg) translateZ(380px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("");
+    transform: rotateY(120deg) translateZ(380px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("");
+   transform: rotateY(160deg) translateZ(380px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("");
+   transform: rotateY(200deg) translateZ(380px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("");
+   transform: rotateY(240deg) translateZ(380px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("");
+    transform: rotateY(280deg) translateZ(380px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("");
+    transform: rotateY(320deg) translateZ(380px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }

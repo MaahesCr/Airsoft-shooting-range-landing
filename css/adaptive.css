@@ -1,0 +1,847 @@
+/*576*/
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .header__nav{
+        display: none;
+    }
+
+    .nav-container{
+        display: block;
+        position: relative;
+    }
+
+    /**/
+
+    .active-nav-a{
+        color: #ECECEC;
+        text-decoration: none;
+        border-bottom: none;
+    }
+
+    .header__nav {
+        padding: 0 15px;
+    }
+
+    .start-section {
+        padding: 0 25px;
+        height: auto;
+        position: relative;
+    }
+
+    .start-section__central-content{
+        flex-direction: column;
+    }
+
+    .start-section__img-logo{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        justify-content: flex-start;
+    }
+
+    .start-section__img-logo img{
+        margin-top: 40px;
+        height: 360px;
+        width: auto;
+        filter: blur(1.5px);  
+    }
+
+    .start-section__yellow-text-block{
+        display: flex;
+        flex-direction: column;
+        height: 340px;
+        justify-content: center;
+    }
+
+    .start-section__text-logo{
+        z-index: 10;
+    }
+
+    .start-section__text-tiger-tir{
+        padding: 10px 0;
+        background:  radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), transparent , transparent);
+    }
+
+    .start-section__text-multi-tir{
+        padding: 10px 0;
+        background:  radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05) , transparent);
+    }
+
+    .start-section__icons-bar{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .start-section__icons-bar-block h6{
+        margin-right: 15px;
+    }
+
+    .row-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .start-section__icons-bar-block{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+/*------------------------MODES-----------------------------*/
+
+    .modes-section{
+        padding: 0 25px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .modes-section__central-content{
+        flex-direction: column-reverse;
+    }
+
+    .modes-section__cards-question{
+        margin-bottom: 20px;
+    }
+
+    .modes-section__card{
+        margin: 10px 0;
+    }
+
+    .modes-section__card h4{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .modes-section__bookmark{
+        left: 0;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .container{
+        left: 0;
+        padding-top: 100px;
+        perspective: 1200px;
+    }
+
+    .carousel__face{
+        height: 100px;
+        width: 200px;
+    }
+
+    .carousel__face span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+/*------------------------WEAPONS-----------------------------*/
+
+    .weapons-section{
+        padding: 30px 25px;
+        flex-direction: column;
+    }
+
+    .weapons-section__card{
+        margin-bottom: 25px;
+    }
+
+    .weapons-section__card:nth-child(2){
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .weapons-section__card-hr{
+        margin: 2px 0;
+    }
+
+    br{
+        display: none;
+    }
+
+    .weapons-section__card-text p{
+        margin-bottom: 4px;
+        line-height: 20px;
+    }
+
+    .carousel-item img{
+        height: 100px;
+    }
+
+    .weapons-section__promising-veapon{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .weapons-section__promising-veapon-card{
+        padding: 5px;
+    }
+
+    /*------------------photo-section*/
+
+    .photo-section{
+        padding: 30px 25px;
+    }
+
+    .photo-section__first-line{
+        flex-direction: row;
+        max-height: 220px;
+        justify-content: center;
+    }
+
+    .photo-section__first-photo{
+        width: 45%;
+        margin-right: 0;
+        margin-left: 25px;
+    }
+
+    .photo-section__second-photo{
+        width: 45%;
+        margin-left: 25px;
+    }
+
+    .photo-section__second-line{
+        flex-direction: row;
+        max-height: 220px;
+        justify-content: center;
+    }
+
+    .photo-section__margin-photo{
+        margin: 0;
+    }
+
+    .zoom{
+        position: absolute;
+        z-index: 5000;
+        width: 90%;
+        height: 210%;
+        box-shadow: 0 0 0 1em #FFF7BD;
+        margin: 0;
+      }
+    
+      .zoomBottom{
+        position: absolute;
+        z-index: 5000;
+        width: 90%;
+        height: 210%;
+        top: -117%;
+        box-shadow: 0 0 0 1em #FFF7BD;
+        margin: 0;
+      }
+
+    /*-------------QUESTION----------------*/
+
+    .question-section{
+        padding: 30px 25px;
+    }
+
+    .question-section__question-div{
+        margin: 30px 0;
+    }
+
+    .question-section__ask-block{
+        width: 90%;
+        padding: 5px;
+    }
+
+    .question-section__ask-block h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .question-section__answer-block{
+        width: 90%;
+        margin-left: 10%;
+        padding: 5px;
+    }
+
+    .question-section__answer-block h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /*---------------------PRICE--------------*/
+    .price-section{
+        padding: 30px 25px;
+        overflow: hidden;
+    }
+
+    .price-section__combo-line{
+        flex-direction: column;
+    }
+
+    .price-section__combo-card{
+        width: 100%;
+    }
+
+    #price-section__combo-card-central{
+        margin: 25px 0;
+    }
+
+    .price-section__combo-card-text{
+        padding: 5px;
+    }
+
+    .price-section__combo-card-text h3{
+        font-size: 24px;
+        line-height: 30px; 
+    }
+
+    .price-section__combo-card-name-of-combo{
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-name-of-mode{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-number-of-shots-fired p{
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-price{
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 2px;
+    }
+
+    .price-section__center{
+        flex-direction: column;
+    }
+
+    .price-section__center-text{
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .price-section__center-price{
+        width: 100%;
+    }
+
+    .price-bottom{
+        flex-direction: column;
+    }
+
+    .price-bottom__cart{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .price-bottom__cart h5{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .price-bottom__cart p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    .purple-card{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    /*---------FOOTER-------------*/
+
+    .footer{
+        padding: 30px 25px;
+        flex-direction: column-reverse;
+    } 
+
+    .footer__info{
+        padding-right: 0;
+        flex-direction: column;
+    }
+
+    .footer__tiger-img{
+        margin-left: -205px;
+    }
+
+    .footer__contacts-text-header{
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .footer__contacts-text-adress{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__contacts-text-phone{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__contacts-text-email{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__contacts-text-operating-mode h5{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__messagers{
+        margin-left: 0;
+    }
+
+    .footer__map{
+        margin-left: 0;
+        min-height: 0;
+    }
+
+    .footer__map iframe{
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .start-section{
+        padding: 0 40px;
+    }
+    
+    .row-reverse{
+        flex-direction: row;
+    }
+
+    .modes-section{
+        padding: 0 40px; 
+    }
+
+    .modes-section__card{
+        padding: 15px;
+    }
+
+    .weapons-section{
+        padding: 30px 40px; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .weapons-section__card{
+        width: 45%;
+    }
+
+    .weapons-section__card:nth-child(2){
+        margin-left: 25px;
+    }
+
+    .weapons-section__first-veapon-card{
+        margin-bottom: 0;
+    }
+
+    .weapons-section__promising-veapon {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .weapons-section__promising-veapon-card{
+        width: 45%;
+    }
+
+    .weapons-section__promising-veapon-card img{
+        height: 170px;
+        width: 170px;
+    }
+
+    .weapons-section__promising-veapon-card-two {
+        margin-left: 25px;
+    }
+
+    .photo-section{
+        padding: 30px 40px;
+    }
+
+    .question-section{
+        padding: 30px 40px;
+    }
+
+    .question-section__answer-block{
+        padding: 10px;
+    }
+    
+    .question-section__ask-block{
+        padding: 10px;
+    }
+
+    .price-section{
+        padding: 30px 40px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .start-section{
+        padding: 0 60px;
+    }
+
+    .start-section__icons-bar-block{
+        justify-content: center;
+    }
+
+    .modes-section{
+        padding: 0 60px;
+    }
+
+    .weapons-section{
+        padding: 30px 60px;
+    }
+
+    .weapons-section__promising-veapon-card img{
+        height: 180px;
+        width: auto;
+    }
+
+    .question-section{
+        padding: 30px 60px;
+    }
+
+    .question-section__ask-block h5{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .question-section__answer-block h5{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .price-section{
+        padding: 30px 60px;
+    }
+
+    .footer__contacts-text-adress{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__contacts-text-phone{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__contacts-text-email{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__contacts-text-operating-mode h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .header__nav{
+        padding: 0 20px
+    }
+
+    .start-section{
+        padding: 0 90px
+    }
+
+    .modes-section{
+        padding: 0 80px;
+        height: auto;
+    }
+
+    .modes-section__cards-question{
+        margin-bottom: 20px;
+    }
+
+    .modes-section__card-yellow {
+        margin: 15px 0;
+    }
+
+    .modes-section__bookmark{
+        left: -90px;
+        width: 100%;
+    }
+
+    .weapons-section{
+        padding: 40px 80px;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    .weapons-section__card{
+        width: 45%;
+    }
+
+    .weapons-section__first-veapon-card{
+        margin-bottom: 0;
+    }
+
+    .weapons-section__card:nth-child(2){
+        margin: 0;
+    }
+
+    .weapons-section__promising-veapon{
+        display: flex;
+        margin-top: 60px;
+        width: 100%;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+
+    .weapons-section__promising-veapon-card{
+        width: 45%;
+    }
+
+    .photo-section{
+        padding: 40px 80px;
+    }
+
+    .question-section{
+        padding: 40px 80px;
+    }
+
+    .question-section__question-div{
+        margin: 30px 0;
+    }
+
+    .question-section__ask-block{
+        width: 80%;
+    }
+
+    .question-section__answer-block{
+        width: 90%;
+        margin-left: 10%
+    }
+
+    .price-section{
+        padding: 40px 60px;
+    }
+
+    .price-section__combo-card-text{
+        padding: 5px;
+    }
+
+    .price-section__combo-card-text h3{
+        font-size: 24px;
+        line-height: 30px; 
+    }
+
+    .price-section__combo-card-name-of-combo{
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-name-of-mode{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-number-of-shots-fired p{
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-price{
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 2px;
+    }
+
+    .price-section__center{
+        flex-direction: column;
+    }
+
+    .price-section__center-text{
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .price-section__center-price{
+        width: 100%;
+    }
+
+    .price-bottom{
+        flex-direction: column;
+    }
+
+    .price-bottom__cart{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .price-bottom__cart h5{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .price-bottom__cart p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    .purple-card{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    br{
+        margin: 2px 0;
+    }
+
+    .footer__info{
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1150px) {
+    .header__nav{
+        padding: 0 100px
+    }
+
+    .start-section{
+        padding: 0 100px
+    }
+
+    
+    .modes-section{
+        padding: 0 100px;
+        height: auto;
+    }
+
+    .modes-section__card{
+        margin-bottom: 20px;
+    }
+
+    .modes-section__bookmark{
+        left: -100px;
+        width: 100%;
+        height: auto;
+    }
+
+    .weapons-section{
+        padding: 40px 100px;
+    }
+
+    .weapons-section__card{
+        width: 30%;
+    }
+
+    .weapons-section__promising-veapon{
+        width: 30%;
+        padding-right: 0;
+    }
+
+    .photo-section{
+        padding: 40px 100px;
+    }
+
+    .question-section{
+        padding: 40px 100px;
+    }
+
+    .question-section__question-div{
+        margin: 30px 0;
+    }
+
+    .question-section__ask-block{
+        width: 80%;
+    }
+
+    .question-section__answer-block{
+        width: 90%;
+        margin-left: 10%
+    }
+
+    .price-section{
+        padding: 40px 100px;
+    }
+
+    .footer__info{
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .header__nav{
+        padding: 0 200px;
+    }
+
+    .start-section{
+        padding: 0 200px;
+    }
+
+    .header__nav-a{
+        font-size: 20px;
+    }
+
+    .header__nav-a:hover {
+        font-size: 21px;
+    }
+
+    .start-section__text-multi-tir{
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .start-section__text-tir-description{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .start-section__icons-bar-block h6{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .modes-section{
+        padding: 0 200px;
+    }
+
+    .modes-section__bookmark{
+        left: -200px;
+    }
+
+    .modes-section__bookmark h6{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .modes-section__cards-question{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .modes-section__card{
+        padding: 20px;
+    }
+
+    .modes-section__card h4{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .weapons-section{
+        padding: 80px 200px;
+    }
+
+    .photo-section{
+        padding: 80px 200px;
+    }
+
+    .question-section{
+        padding: 80px 200px;
+    }
+
+    .price-section{
+        padding: 80px 200px;
+    }
+}   

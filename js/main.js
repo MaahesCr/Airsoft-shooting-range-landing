@@ -6,6 +6,8 @@ const windowInnerHeight = window.innerHeight
 console.log(windowInnerWidth)
 console.log(windowInnerHeight)
 */
+
+/*(((((((((((())))))))))))
 $('html, body').css({
   overflow: 'hidden',
   height: '100%'
@@ -26,6 +28,7 @@ window.onload =function() {
   })
 
 }
+*/
 
 //Всплывающие cards Section2
 

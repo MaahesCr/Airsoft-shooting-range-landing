@@ -692,6 +692,107 @@ PHOTO
 
 /*
 ------------------
+EVENTS 
+------------------
+*/
+
+.events-section{
+    padding: 60px 165px;
+}
+
+.events-section__first-line{
+    display: flex;
+}
+
+.events-section__card{
+    background-color: #003333;
+    border-radius: 15px;
+    width: 33.33%;
+}
+
+.events-section__card:nth-child(2){
+    margin: 0 30px;
+}
+
+.events-section__card img{
+    width: 100%;
+    height: 296px;
+    background-size: cover;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.events-section__after-image{
+    height: 15px;
+    width: 100%;
+    background-color: #003333;
+    top: -15px;
+    position: absolute;
+}
+
+.events-section__card-bottom{
+    width: 100%;
+    background-color: #003333;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.events-section__card-bottom h3{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #FFE925;
+}
+
+.events-section__button{
+    width: 100%;
+    padding: 0 24px;
+    border-radius: 15px;
+}
+
+.events-section__button a{
+    height: 100%;
+}
+
+.events-section__button a button{
+    background-color: #FFE925;
+    width: 100%;
+    padding: 7px;
+    border-radius: 15px;
+    color: #003333;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.045em;
+}
+
+.events-section__second-line{
+    margin-top: 30px;
+    display: flex;
+}
+
+.events-section__second-line .events-section__card{
+    width: 50%;
+}
+
+.events-section__second-line .events-section__card:nth-child(2){
+    margin: 0 0 0 30px;
+}
+
+
+/*
+------------------
 QUESTION 
 ------------------
 */

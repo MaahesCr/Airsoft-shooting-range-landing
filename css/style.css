@@ -696,8 +696,24 @@ EVENTS
 ------------------
 */
 
+.events-section::before{
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 200px; 
+    z-index: 1; 
+    background: linear-gradient(to bottom, #003333, transparent); 
+}
+
 .events-section{
     padding: 60px 165px;
+    position: relative;
+    background-image:
+    url('../img/weaponPatern.png'),
+    linear-gradient(#003333, #707070, #003333);
+    background-size: cover;
 }
 
 .events-section__first-line{
@@ -707,7 +723,10 @@ EVENTS
 .events-section__card{
     background-color: #003333;
     border-radius: 15px;
-    width: 33.33%;
+    width: 50%;
+    z-index: 5000;
+    box-shadow: -3px 3px 6px #0000007a;
+    height: 100%;
 }
 
 .events-section__card:nth-child(2){
@@ -716,7 +735,8 @@ EVENTS
 
 .events-section__card img{
     width: 100%;
-    height: 296px;
+    height: auto;
+    max-height: 250px;
     background-size: cover;
     border-radius: 15px;
     object-fit: cover;
@@ -729,6 +749,67 @@ EVENTS
     top: -15px;
     position: absolute;
 }
+
+.events-section__card-text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*-----------------*/
+
+.accordion-item{
+    background-color: #003333;
+}
+
+.accordion-button{
+    background-color: #003333;
+    color: #FFF8BC;
+    padding: 15px 20px;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.045em;
+    text-shadow: 3px 3px #000000;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFF8BC'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");               
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23bcc2ff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #003333;
+    color: #bcc2ff;
+    box-shadow: none;
+}
+
+.accordion-body{
+    background-color: #003333;
+}
+
+.accordion-body p{
+    color: rgb(224, 224, 224);
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.045em;
+    text-shadow: 1px 1px #000000;
+}
+
+/*-----------------*/
 
 .events-section__card-bottom{
     width: 100%;
@@ -745,16 +826,18 @@ EVENTS
     font-family: 'Play';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 20px;
     text-align: center;
     letter-spacing: 0.045em;
     color: #FFE925;
+    text-shadow: 3px 3px #000000;
 }
 
 .events-section__button{
     width: 100%;
-    padding: 0 24px;
+    padding: 0 20px;
     border-radius: 15px;
 }
 
@@ -801,15 +884,17 @@ EVENTS
 .events-section__events-div{
     width: 200%;
     margin-right: 60px;
+    z-index: 5000;
 }
 
 .events-section__events-div h2{
     font-family: 'Play';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 30px;
     line-height: 22px;
     letter-spacing: 0.09em;
+    color: #FFF8BC;
 }
 
 .events-section__events-table{
@@ -821,12 +906,18 @@ EVENTS
     font-weight: 400;
     font-size: 18px;
     line-height: 16px;
+    color: #DADADA;
 }
 
 .events-section__events-table tr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background: linear-gradient(to left, #D2C2FDe6, #FFF7BDe6 100%);
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
 }
 
 
@@ -836,6 +927,19 @@ EVENTS
 
 .events-section__form-div{
     width: 100%;
+    z-index: 5000;
+    box-shadow: -3px 3px 6px #0000007a;
+    border-radius: 15px;
+}
+
+.events-section__form-and-anchor{
+    position: relative;
+    height: 100%;
+}
+
+#sign-up-for-services-form{
+    position: absolute;
+    top: -40px;
 }
 
 .events-section__form{
@@ -843,27 +947,66 @@ EVENTS
     flex-direction: column;
     border-radius: 15px;
     padding: 15px;
-    background-color: #c7c7c7;
 }
+
+/*
+.events-section__form {
+  background:  #a27dff;
+  box-shadow: 0 -150px 70px -120px plum inset,
+              0 -220px 70px -120px #0D8080 inset,
+              0 -280px 70px -120px #a27dff inset;
+  animation: background 4s infinite alternate;
+}
+
+@keyframes background {
+  50% {
+    background: #b79bff;
+    box-shadow: 0 -140px 70px -120px mediumorchid inset,
+                0 -210px 70px -120px teal inset,
+                0 -280px 70px -120px plum inset;
+  }
+}
+*/
+.events-section__form {
+  background:  #a27dff;
+  box-shadow: 0 100px 70px -120px plum inset,
+              0 200px 70px -120px #3db7b7 inset,
+              0 300px 70px -120px #a27dff inset;
+  animation: background 8s infinite alternate;
+}
+
+@keyframes background {
+  50% {
+    background: #b79bff;
+    box-shadow: 0 400px 70px -0px mediumorchid inset,
+                0 500px 70px -0px #60b7b7 inset,
+                0 600px 70px -0px rgb(220, 181, 220) inset;
+  }
+}
+
+
+/**/
 
 .events-section__form-header{
     font-family: 'Play';
     font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 22px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 18px;
     text-align: center;
-    letter-spacing: 0.09em;
+    color: #efefef;
+    padding-bottom: 10px;
 }
 
 .events-section__form-description-text{
     font-family: 'Play';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 16px;
     text-align: center;
-    letter-spacing: 0.09em;
+    color: #003333;
+    margin-bottom: 0;
 }
 
 .events-section__form-input{
@@ -878,6 +1021,83 @@ EVENTS
     line-height: 18px;
     letter-spacing: 0.09em;
     margin: 10px 0;
+}
+
+.events-section__form-btn{
+    background-color: #FFE925;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    color: #5b5b5b;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.009em;
+    margin: 10px 0;
+    border: none;
+}
+
+.events-section__form-agreement{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.09em;
+}
+
+.events-section__form-agreement-link{
+    color: #ecf0f1;
+}
+
+.events-section__form-success{
+    display: flex;
+    background:  #a27dff;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 0 100px 70px -120px plum inset,
+                0 200px 70px -120px #3db7b7 inset,
+                0 300px 70px -120px #a27dff inset;
+    animation: background 8s infinite alternate;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.events-section__form-success h4{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+.events-section__form-success h5{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.09em;
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+.events-section::after{
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 300px; 
+    z-index: 3000; 
+    background: linear-gradient(to top, #003333, transparent); 
 }
 
 

@@ -48,7 +48,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
-    <!--            ((((((((((((((((()))))))))))))))))
     <div id="start-animation" class="start-animation">
         <script>
             let animation = bodymovin.loadAnimation({   
@@ -61,7 +60,7 @@
             }); 
         </script>
     </div>
-    -->
+
     <header class="header" id="header">
         <div class="nav-container container-nav-mobile">
             <input class="checkbox" type="checkbox"/>
@@ -76,6 +75,7 @@
                     <li><a class="header__nav-a" href="#modes-section" onclick="closeNav()">Режимы</a></li>
                     <li><a class="header__nav-a" href="#weapons-section" onclick="closeNav()">Оружие</a></li>
                     <li><a class="header__nav-a" href="#photo-section" onclick="closeNav()">Фото и видео</a></li>
+                    <li><a class="header__nav-a" href="#events-section" onclick="closeNav()">Допуслуги</a></li>
                     <li><a class="header__nav-a" href="#question-section" onclick="closeNav()">Частые вопросы</a></li>
                     <li><a class="header__nav-a" href="#price-section" onclick="closeNav()">Цены</a></li>
                     <li><a class="header__nav-a" href="#footer-section" onclick="closeNav()">Контакты</a></li>
@@ -87,6 +87,7 @@
             <a class="header__nav-a" href="#modes-section">Режимы</a>
             <a class="header__nav-a" href="#weapons-section">Оружие</a>
             <a class="header__nav-a" href="#photo-section">Фото и видео</a>
+            <a class="header__nav-a" href="#events-section">Допуслуги</a>
             <a class="header__nav-a" href="#question-section">Частые вопросы</a>
             <a class="header__nav-a" href="#price-section">Цены</a>
             <a class="header__nav-a" href="#footer-section">Контакты</a>
@@ -317,77 +318,198 @@
         <div class="events-section__cards">
             <div class="events-section__first-line">
                 <div class="events-section__card">
-                    <img src="./img/Shooting_competitions.jpg" alt="Shooting competitions">
+                    <img src="./img/Shooting_competitions1-min.jpeg" alt="Shooting competitions">
                     <div class="events-section__card-bottom">
                         <div class="events-section__after-image"></div>
-                        <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ</h3>
-                        <div class="events-section__button">
-                            <a href="#sign-up-for-services-form">
-                                <button>1000 ₽</button>
-                            </a>
+                        <div class="events-section__card-text-div">
+                            <h3>ДЕНЬ РОЖДЕНИЯ ПАКЕТ "LIGHT"</h3>
+                            
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                      Описание
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Аренда двух залов (тир и банкетный зал) 2 часа, программа с ведущим 1 час, чаепитие в банкетном зале, настольные игры, стрельба в тире со скидкой до 20%, фоновая музыка, Smart TV.
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="events-section__button">
+                                <a href="#sign-up-for-services-form">
+                                    <button>4 990 ₽</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="events-section__card">
-                    <img src="./img/Shooting_competitions.jpg" alt="Shooting competitions">
+                    <img src="./img/Shooting_competitions2-min.jpeg" alt="Shooting competitions">
                     <div class="events-section__card-bottom">
                         <div class="events-section__after-image"></div>
-                        <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ</h3>
-                        <div class="events-section__button">
-                            <a href="#sign-up-for-services-form">
-                                <button>1000 ₽</button>
-                            </a>
+                        <div class="events-section__card-text-div">
+                            <h3>ДЕНЬ РОЖДЕНИЯ ПАКЕТ "CLASSIC"</h3>
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                      Описание
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Аренда двух залов (тир и банкетный зал) 1,5 часа, программа с инструктором и гостями в тире 1 час, чаепитие в банкетном зале, настольные игры, стрельба в тире со скидкой до 20%, фоновая музыка, Smart TV.
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="events-section__button">
+                                <a href="#sign-up-for-services-form">
+                                    <button>7 900 ₽</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
                 <div class="events-section__card">
-                    <img src="./img/Shooting_competitions.jpg" alt="Shooting competitions">
+                    <img src="./img/Shooting_competitions3-min.jpeg" alt="Shooting competitions">
                     <div class="events-section__card-bottom">
                         <div class="events-section__after-image"></div>
-                        <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ</h3>
-                        <div class="events-section__button">
-                            <a href="#sign-up-for-services-form">
-                                <button>1000 ₽</button>
-                            </a>
+                        <div class="events-section__card-text-div">
+                            <h3>ДЕНЬ РОЖДЕНИЯ ПАКЕТ "LUXE"</h3>
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                      Описание
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            В этом пакете мы дарим торт в подарок имениннику (подробности у администратора). <br/>
+                                            Аренда двух залов (тир и банкетный зал) 2 часа, программа с инструктором и гостями в тире 1 час, программа с ведущим 30 мин, чаепитие в банкетном зале, настольные игры, стрельба в тире со скидкой до 20%, фоновая музыка, Smart TV.
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="events-section__button">
+                                <a href="#sign-up-for-services-form">
+                                    <button>11 990 ₽</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="events-section__second-line">
                 <div class="events-section__card">
-                    <img src="./img/Shooting_competitions.jpg" alt="Shooting competitions">
+                    <img src="./img/Shooting_competitions4-min.jpeg" alt="Shooting competitions">
                     <div class="events-section__card-bottom">
                         <div class="events-section__after-image"></div>
-                        <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ</h3>
-                        <div class="events-section__button">
-                            <a href="#sign-up-for-services-form">
-                                <button>1000 ₽</button>
-                            </a>
+                        <div class="events-section__card-text-div">
+                            <h3>КОРПАРАТИВ</h3>
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                      Описание
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Аренда двух залов (тир и банкетный зал) 2 часа, соревнование по стрельбе 1 час, сервировка стола, чаепитие в банкетном зале: предоставляем кулер с водой и чёрный чай, фоновая музыка, Smart TV.
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="events-section__button">
+                                <a href="#sign-up-for-services-form">
+                                    <button>9 900-12 900 ₽</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="events-section__card">
-                    <img src="./img/Shooting_competitions.jpg" alt="Shooting competitions">
+                    <img src="./img/Shooting_competitions5-min.jpeg" alt="Shooting competitions">
                     <div class="events-section__card-bottom">
                         <div class="events-section__after-image"></div>
-                        <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ</h3>
-                        <div class="events-section__button">
-                            <a href="#sign-up-for-services-form">
-                                <button>1000 ₽</button>
-                            </a>
+                        <div class="events-section__card-text-div">
+                            <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ </h3>
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                      Описание
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Аренда тира 1 час (тир работает только для вас), соревнование по стрельбе 40-50 мин, фоновая музыка, фото/видео с оружием, награждение всех участников и победителя соревнования.
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="events-section__button">
+                                <a href="#sign-up-for-services-form">
+                                    <button>1000 ₽</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="events-section__card">
-                    <img src="./img/Shooting_competitions.jpg" alt="Shooting competitions">
+                    <img src="./img/Shooting_competitions6-min.jpeg" alt="Shooting competitions">
                     <div class="events-section__card-bottom">
                         <div class="events-section__after-image"></div>
-                        <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ</h3>
+                        <h3>СЕКЦИЯ ПО СТРЕЛЬБЕ</h3>
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                  Описание
+                                </button>
+                              </h2>
+                              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        В программу обучения входит: навыки и культура безопасного обращения с оружием; основы меткого выстрела из автоматов и винтовки; изучение устройства стрелкового оружия; правила пулевой стрельбы; практические занятия и тренировки в стрельбе по мишеням различной сложности.
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
                         <div class="events-section__button">
                             <a href="#sign-up-for-services-form">
-                                <button>1000 ₽</button>
+                                <button>от 3000 ₽</button>
                             </a>
                         </div>
                     </div>
@@ -413,24 +535,29 @@
                                 <td>1000₽</td>
                             </tr>
                             <tr>
-                                <td class="events-section__name-of-service-td">Мастер-класс по рисованию картины 25х35 </td>
-                                <td>800₽</td>
+                                <td class="events-section__name-of-service-td">Мастер-классы </td>
+                                <td>500₽</td>
                             </tr>
                         </tbody>
                     </table>
             </div>
-            <div class="events-section__form-div">
-                <div>
+            <div class="events-section__form-div" >
+                <div class="events-section__form-and-anchor">
+                    <div id="sign-up-for-services-form"></div>
                     <form class="events-section__form" onclick="event.preventDefault()">
                         <h2 class="events-section__form-header">Оставить заявку</h2>
                         <h4 class="events-section__form-description-text">Команда TigerTir свяжется с вами и забронирует для вас время!</h4>
-                        <input placeholder="Ваше имя" class="events-section__form-input" id="name-input" type="text">
+                        <input placeholder="Ваше имя"  class="events-section__form-input" id="name-input" type="text">
                         <input placeholder="День праздника" class="events-section__form-input" id="date-input" type="date">
-                        <input placeholder="Номер телефона" class="events-section__form-input" id="phone-input" type="tel">
+                        <input placeholder="Номер телефона"  class="events-section__form-input" id="phone-input" type="tel">
                         <input class="events-section__form-input" placeholder="Ваш комментарий" id="comment-input" type="text">
-                        <button onclick="sendform()">Отправить</button>
-                        <h5>Отправляя <a href="">тык</a></h5>
+                        <button class="events-section__form-btn" onclick="sendform()">Отправить</button>
+                        <h5 class="events-section__form-agreement">Отправляя данную форму вы соглашаетесь с <a class="events-section__form-agreement-link" target="_blank" href="./pdf/privacy_policy.pdf">политикой обработки персональных данных</a></h5>
                     </form>
+                    <div class="events-section__form-success">
+                        <h4>Все прошло успешно!</h4>
+                        <h5>Мы скоро вам перезвоним!</h5>
+                    </div>
                 </div>
             </div>
         </div>

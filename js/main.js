@@ -7,7 +7,7 @@ console.log(windowInnerWidth)
 console.log(windowInnerHeight)
 */
 
-/*(((((((((((())))))))))))
+
 $('html, body').css({
   overflow: 'hidden',
   height: '100%'
@@ -28,7 +28,7 @@ window.onload =function() {
   })
 
 }
-*/
+
 
 //Всплывающие cards Section2
 
@@ -57,7 +57,8 @@ function onEntry(entry) {
                       document.querySelectorAll('.price-section__combo-card-third'),
                       document.querySelectorAll('.blue-card'),
                       document.querySelectorAll('.purple-card'),
-                      document.querySelectorAll('.yellow-card')
+                      document.querySelectorAll('.yellow-card'),
+                      document.querySelectorAll('.events-section__card')
                     ];
 
   for (let elm of elements) {

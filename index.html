@@ -380,15 +380,58 @@
                         </div>
                     </div>
                 </div>
+                <div class="events-section__card">
+                    <img src="./img/Shooting_competitions.jpg" alt="Shooting competitions">
+                    <div class="events-section__card-bottom">
+                        <div class="events-section__after-image"></div>
+                        <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ</h3>
+                        <div class="events-section__button">
+                            <a href="#sign-up-for-services-form">
+                                <button>1000 ₽</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="events-section__bottom-div">
-            <div>
+            <div class="events-section__events-div">
                 <h2>Допуслуги</h2>
+                    <table class="events-section__events-table">
+                        <tbody>
+                            <tr>
+                                <td class="events-section__name-of-service-td">Украшение зала (шары, фотозона)</td>
+                                <td>800₽</td>
+                            </tr>
+                            <tr>
+                                <td class="events-section__name-of-service-td">Посуда и сервировка стола</td>
+                                <td>800₽</td>
+                            </tr>
+                            <tr>
+                                <td class="events-section__name-of-service-td">Аренда помещения 1 час </td>
+                                <td>1000₽</td>
+                            </tr>
+                            <tr>
+                                <td class="events-section__name-of-service-td">Мастер-класс по рисованию картины 25х35 </td>
+                                <td>800₽</td>
+                            </tr>
+                        </tbody>
+                    </table>
             </div>
-            <div>
-
+            <div class="events-section__form-div">
+                <div>
+                    <form class="events-section__form" onclick="event.preventDefault()">
+                        <h2 class="events-section__form-header">Оставить заявку</h2>
+                        <h4 class="events-section__form-description-text">Команда TigerTir свяжется с вами и забронирует для вас время!</h4>
+                        <input placeholder="Ваше имя" class="events-section__form-input" id="name-input" type="text">
+                        <input placeholder="День праздника" class="events-section__form-input" id="date-input" type="date">
+                        <input placeholder="Номер телефона" class="events-section__form-input" id="phone-input" type="tel">
+                        <input class="events-section__form-input" placeholder="Ваш комментарий" id="comment-input" type="text">
+                        <button onclick="sendform()">Отправить</button>
+                        <h5>Отправляя <a href="">тык</a></h5>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -591,5 +634,8 @@
         });
     </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/sendForm.js" >  </script>
+    <script src="./js/maskPhone.js"></script>
 </body>
 </html>

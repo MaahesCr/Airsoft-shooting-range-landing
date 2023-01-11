@@ -787,7 +787,97 @@ EVENTS
 }
 
 .events-section__second-line .events-section__card:nth-child(2){
-    margin: 0 0 0 30px;
+    margin: 0 30px;
+}
+
+/*--bottom--*/
+
+.events-section__bottom-div{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.events-section__events-div{
+    width: 200%;
+    margin-right: 60px;
+}
+
+.events-section__events-div h2{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.09em;
+}
+
+.events-section__events-table{
+    width: 100%;
+    margin-top: 30px;
+
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.events-section__events-table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.events-section__events-table td{
+    padding: 15px 0;
+}
+
+.events-section__form-div{
+    width: 100%;
+}
+
+.events-section__form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #c7c7c7;
+}
+
+.events-section__form-header{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.09em;
+}
+
+.events-section__form-description-text{
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.09em;
+}
+
+.events-section__form-input{
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.09em;
+    margin: 10px 0;
 }
 
 

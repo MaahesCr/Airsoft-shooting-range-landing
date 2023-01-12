@@ -945,28 +945,18 @@ EVENTS
 .events-section__form{
     display: flex;
     flex-direction: column;
+}
+
+.events-section__form-shell{
+    background:  #a27dff;
+    box-shadow: 0 100px 70px -120px plum inset,
+                0 200px 70px -120px #3db7b7 inset,
+                0 300px 70px -120px #a27dff inset;
+    animation: background 8s infinite alternate;
     border-radius: 15px;
     padding: 15px;
 }
 
-/*
-.events-section__form {
-  background:  #a27dff;
-  box-shadow: 0 -150px 70px -120px plum inset,
-              0 -220px 70px -120px #0D8080 inset,
-              0 -280px 70px -120px #a27dff inset;
-  animation: background 4s infinite alternate;
-}
-
-@keyframes background {
-  50% {
-    background: #b79bff;
-    box-shadow: 0 -140px 70px -120px mediumorchid inset,
-                0 -210px 70px -120px teal inset,
-                0 -280px 70px -120px plum inset;
-  }
-}
-*/
 .events-section__form {
   background:  #a27dff;
   box-shadow: 0 100px 70px -120px plum inset,

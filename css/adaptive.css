@@ -232,6 +232,84 @@
         margin: 0;
       }
 
+    /*-------------events----------------*/
+    .events-section{
+        padding:30px 25px
+    }
+
+    .events-section__first-line{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .events-section__card{
+        width: 100%;
+        margin-top:30px;
+    }
+
+    .events-section__card:nth-child(2){
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .events-section__second-line{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .events-section__second-line .events-section__card{
+        width: 100%;
+        margin-top:30px;
+    }
+
+    .events-section__second-line .events-section__card:nth-child(2){
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .events-section__bottom-div{
+        flex-direction: column;
+    }
+    
+    .events-section__events-div{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .events-section__events-div h2{
+        font-size: 22px;
+        line-height: 18px;
+    }
+
+    .events-section__events-table{
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .events-section__form-header{
+        font-size: 22px;
+        line-height: 18px;
+    }
+
+    .events-section__form-input{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .events-section__form-btn{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .events-section__form-agreement{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
     /*-------------QUESTION----------------*/
 
     .question-section{
@@ -376,13 +454,13 @@
     }
 
     .footer__contacts-text-phone{
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 10px;
+        line-height: 14px;
     }
 
     .footer__contacts-text-email{
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 10px;
+        line-height: 14px;
     }
 
     .footer__contacts-text-operating-mode h5{
@@ -463,6 +541,89 @@
         padding: 30px 40px;
     }
 
+    /*-------------events----------------*/
+
+    .events-section{
+        padding:30px 40px
+    }
+
+    .events-section__first-line{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .events-section__card{
+        margin-top: 0;
+    }
+
+    .events-section__card:nth-child(2){
+        margin: 0 10px;
+
+    }
+
+    .events-section__card-bottom{
+        padding-bottom: 10px;
+    }
+
+    .events-section__card-bottom h3{
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0 10px;
+        margin-bottom: 0;
+    }
+
+    .accordion-button{
+        padding: 10px 10px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .accordion-body{
+        padding: 0 10px;
+    }
+
+    .accordion-body p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .events-section__button{
+        padding: 0 10px;
+    }
+
+    .events-section__button a button{
+        font-size: 12px;
+        line-height: 16px;
+        padding: 3px;
+        border-radius: 7px;
+    }
+
+    .events-section__second-line{
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .events-section__second-line .events-section__card:nth-child(2){
+        margin: 0 10px;
+    }
+
+    .events-section__second-line .events-section__card{
+        margin: 0;
+    }
+
+    .events-section__bottom-div{
+        flex-direction: row;
+    }
+
+    .events-section__events-div{
+        width: 40%;
+    }
+
+    .events-section__form-div{
+        width: 50%;
+    }
+
     .question-section{
         padding: 30px 40px;
     }
@@ -501,6 +662,30 @@
     .weapons-section__promising-veapon-card img{
         height: 180px;
         width: auto;
+    }
+
+    .photo-section{
+        padding: 30px 60px;
+    }
+
+    .events-section{
+        padding: 30px 60px;
+    }
+
+    .events-section__card:nth-child(2){
+        margin: 0 15px;
+    }
+
+    .events-section__second-line .events-section__card:nth-child(2) {
+        margin: 0 15px;
+    }
+
+    .events-section__events-div{
+        width: 50%;
+    }
+
+    .events-section__form-div{
+        width: 40%;
     }
 
     .question-section{
@@ -545,6 +730,10 @@
 @media screen and (min-width: 769px) and (max-width: 960px) {
     .header__nav{
         padding: 0 20px
+    }
+
+    .header__nav-a{
+        font-size: 16px;
     }
 
     .start-section{
@@ -601,6 +790,18 @@
 
     .photo-section{
         padding: 40px 80px;
+    }
+
+    .events-section{
+        padding: 40px 80px;
+    }
+
+    .events-section__card:nth-child(2){
+        margin: 0 20px;
+    }
+
+    .events-section__second-line .events-section__card:nth-child(2){
+        margin: 0 20px;
     }
 
     .question-section{
@@ -707,6 +908,10 @@
         padding: 0 100px
     }
 
+    .header__nav-a{
+        font-size: 16px;
+    }
+
     .start-section{
         padding: 0 100px
     }
@@ -742,6 +947,18 @@
 
     .photo-section{
         padding: 40px 100px;
+    }
+
+    .events-section{
+        padding: 40px 100px;
+    }
+
+    .events-section__card:nth-child(2){
+        margin: 0 25px;
+    }
+
+    .events-section__second-line .events-section__card:nth-child(2){
+        margin: 0 25px;
     }
 
     .question-section{
@@ -835,6 +1052,18 @@
 
     .photo-section{
         padding: 80px 200px;
+    }
+
+    .events-section{
+        padding: 80px 200px;
+    }
+
+    .events-section__card:nth-child(2){
+        margin: 0 40px;
+    }
+
+    .events-section__second-line .events-section__card:nth-child(2){
+        margin: 0 40px;
     }
 
     .question-section{

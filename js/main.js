@@ -7,11 +7,11 @@ console.log(windowInnerWidth)
 console.log(windowInnerHeight)
 */
 
-
 $('html, body').css({
   overflow: 'hidden',
   height: '100%'
 });
+
 
 window.onload =function() {
   $(document).ready(function() {

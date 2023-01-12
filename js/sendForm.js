@@ -26,7 +26,7 @@ function sendform(){
   }).then(
 
   );
-    $(".events-section__form").fadeOut(); 
+    $(".events-section__form-shell").fadeOut(); 
     setTimeout(() => {
       $(".events-section__form-success").fadeIn();
       $(".events-section__form-success")

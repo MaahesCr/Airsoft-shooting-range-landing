@@ -70,6 +70,11 @@
         background:  radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05) , transparent);
     }
 
+    .start-section__submit-btn{
+        font-size: 16px;
+        padding: 12px;
+    }
+
     .start-section__icons-bar{
         flex-direction: column;
         height: auto;
@@ -166,7 +171,7 @@
     }
 
     .carousel-item img{
-        height: 100px;
+    /*    height: 100px;*/
     }
 
     .weapons-section__promising-veapon{
@@ -183,7 +188,7 @@
     /*------------------photo-section*/
 
     .photo-section{
-        padding: 30px 25px;
+    /*    padding: 30px 25px;*/
     }
 
     .photo-section__first-line{
@@ -211,6 +216,18 @@
 
     .photo-section__margin-photo{
         margin: 0;
+    }
+
+    .photo-section__photo-img{
+        height: 50vh;
+    }
+
+    .photo-section::before{
+        height: 70px;
+    }
+
+    .photo-section::after{
+        height: 70px;
     }
 
     .zoom{
@@ -538,7 +555,19 @@
     }
 
     .photo-section{
-        padding: 30px 40px;
+    /*    padding: 30px 40px;*/
+    }
+
+    .photo-section__photo-img{
+        height: 50vh;
+    }
+
+    .photo-section::before{
+        height: 70px;
+    }
+
+    .photo-section::after{
+        height: 70px;
     }
 
     /*-------------events----------------*/
@@ -665,7 +694,11 @@
     }
 
     .photo-section{
-        padding: 30px 60px;
+    /*    padding: 30px 60px;*/
+    }
+
+    .photo-section__photo-img{
+        height: 70vh;
     }
 
     .events-section{
@@ -789,7 +822,11 @@
     }
 
     .photo-section{
-        padding: 40px 80px;
+    /*    padding: 40px 80px;*/
+    }
+
+    .photo-section__photo-img{
+        height: 70vh;
     }
 
     .events-section{
@@ -946,7 +983,11 @@
     }
 
     .photo-section{
-        padding: 40px 100px;
+    /*    padding: 40px 100px;*/
+    }
+
+    .photo-section__photo-img{
+        height: 80vh;
     }
 
     .events-section{
@@ -1051,7 +1092,7 @@
     }
 
     .photo-section{
-        padding: 80px 200px;
+    /*    padding: 80px 200px;*/
     }
 
     .events-section{

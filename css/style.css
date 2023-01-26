@@ -279,6 +279,27 @@
     color: #ECECEC;
 }
 
+.start-section__submit-a{
+    height: 100%;
+    cursor: pointer;
+}
+
+.start-section__submit-btn{
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #5b5b5b;
+    background: #FFE925;
+    /*box-shadow: 0 100px 70px -120px plum inset, 0 200px 70px -120px #3db7b7 inset, 0 300px 70px -120px #a27dff inset;
+    animation: background 8s infinite alternate;*/
+}
+
 .start-section__icons-bar{
     height: 65px;
     margin-top: 20px;
@@ -501,11 +522,7 @@ WEAPONS
     width: auto;
 }
 
-.carousel-item img{
-    /*height: auto;
-    width: auto;
-    object-fit: cover;
-    */
+.weapons-section__card-img{
     padding-bottom: 10px;
     height: 180px;
     width: 120px;
@@ -624,15 +641,17 @@ PHOTO
 
 .photo-section{
     position: relative;
-    padding: 60px 195px 60px 165px;
+    /*padding: 60px 195px 60px 165px;
     display: flex;
     flex-direction: column;
     background-image:
     url('../img/WavesBlack.png'),
     linear-gradient(to top, rgba(0,0,0,0), #033333);
-    background-size: cover;
+    background-size: cover;*/
     z-index: 2000;
 }
+
+/*
 
 .photo-section__first-line{
     display: flex;
@@ -666,19 +685,35 @@ PHOTO
     z-index: 4000;
     position: relative;
 }
+*/
+
+#carouselExampleIndicators3{
+    /*z-index: 4001;*/
+}
+
+.photo-section__carousel-inner{
+    border-radius: 15px;
+}
+
+.photo-section__photo-img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.photo-section__carousel-arrow{
+    z-index: 4001;
+}
+
+.photo-section__carousel-indicators{
+    position:absolute;
+    z-index: 4001;
+}
 
 .more-z-index{
     z-index: 4001;
 }
 
-/*
-.photo-section__img{
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-*/
 .photo-section::after{ 
     content: ''; 
     position: absolute; 
@@ -1011,6 +1046,14 @@ EVENTS
     line-height: 18px;
     letter-spacing: 0.09em;
     margin: 10px 0;
+}
+
+.events-section__form-input-date{
+    display:block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+    width: 100%;
 }
 
 .events-section__form-btn{

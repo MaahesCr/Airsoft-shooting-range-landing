@@ -170,10 +170,6 @@
         line-height: 20px;
     }
 
-    .carousel-item img{
-    /*    height: 100px;*/
-    }
-
     .weapons-section__promising-veapon{
         display: flex;
         flex-direction: column;
@@ -186,10 +182,6 @@
     }
 
     /*------------------photo-section*/
-
-    .photo-section{
-    /*    padding: 30px 25px;*/
-    }
 
     .photo-section__first-line{
         flex-direction: row;
@@ -554,10 +546,6 @@
         margin-left: 25px;
     }
 
-    .photo-section{
-    /*    padding: 30px 40px;*/
-    }
-
     .photo-section__photo-img{
         height: 50vh;
     }
@@ -693,10 +681,6 @@
         width: auto;
     }
 
-    .photo-section{
-    /*    padding: 30px 60px;*/
-    }
-
     .photo-section__photo-img{
         height: 70vh;
     }
@@ -819,10 +803,6 @@
 
     .weapons-section__promising-veapon-card{
         width: 45%;
-    }
-
-    .photo-section{
-    /*    padding: 40px 80px;*/
     }
 
     .photo-section__photo-img{
@@ -982,9 +962,6 @@
         padding-right: 0;
     }
 
-    .photo-section{
-    /*    padding: 40px 100px;*/
-    }
 
     .photo-section__photo-img{
         height: 80vh;
@@ -1089,10 +1066,6 @@
 
     .weapons-section{
         padding: 80px 200px;
-    }
-
-    .photo-section{
-    /*    padding: 80px 200px;*/
     }
 
     .events-section{

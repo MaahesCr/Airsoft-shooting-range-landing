@@ -27,7 +27,6 @@
     transition-duration: 1s;
 }
 
-/**/
 .container-nav-mobile {
     max-width: 1050px;
     width: 90%;
@@ -62,14 +61,7 @@
   .navbar .nav-container a:hover{
       font-weight: bolder;
   }
-  /*
-  .nav-container {
-    display: block;
-    position: relative;
-    height: 40px;
-    width: 100%;
-  }
-  */
+
   .nav-container .checkbox {
     position: absolute;
     display: block;
@@ -227,10 +219,6 @@
     display: flex;
     flex-direction: row;
     align-content: center;
-    /*
-    padding-left: -165px;
-    margin-left: 10%;
-    */
 }
 
 .start-section__central-content img{
@@ -296,8 +284,6 @@
     text-align: center;
     color: #5b5b5b;
     background: #FFE925;
-    /*box-shadow: 0 100px 70px -120px plum inset, 0 200px 70px -120px #3db7b7 inset, 0 300px 70px -120px #a27dff inset;
-    animation: background 8s infinite alternate;*/
 }
 
 .start-section__icons-bar{
@@ -314,10 +300,6 @@
     align-items: center;
     width: 30%;
 }
-
-/*.start-section__icons-bar-block:nth-child(2){
-    padding: 0 30px;
-}*/
 
 .start-section__icons-bar-block img{
     height: 40px;
@@ -641,58 +623,7 @@ PHOTO
 
 .photo-section{
     position: relative;
-    /*padding: 60px 195px 60px 165px;
-    display: flex;
-    flex-direction: column;
-    background-image:
-    url('../img/WavesBlack.png'),
-    linear-gradient(to top, rgba(0,0,0,0), #033333);
-    background-size: cover;*/
     z-index: 2000;
-}
-
-/*
-
-.photo-section__first-line{
-    display: flex;
-    max-height: 300px;
-    z-index: 4000;
-    position: relative;
-}
-
-.photo-section__first-photo{
-    width: 33.33%;
-    object-fit: cover;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.photo-section__margin-photo{
-    margin-right: 30px;
-}
-
-.photo-section__second-photo{
-    width: 66.66%;
-    object-fit: cover;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.photo-section__second-line{
-    margin-top: 30px;
-    display: flex;
-    max-height: 300px;
-    z-index: 4000;
-    position: relative;
-}
-*/
-
-#carouselExampleIndicators3{
-    /*z-index: 4001;*/
-}
-
-.photo-section__carousel-inner{
-    border-radius: 15px;
 }
 
 .photo-section__photo-img{
@@ -1313,12 +1244,11 @@ PRICE
 
 .price-section__combo-card-name-of-modes{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center
 }
 
 .price-section__combo-card-name-of-mode{
-    width: 44%;
     font-size: 18px;
     line-height: 24px;
     text-align: center;
@@ -1338,7 +1268,7 @@ PRICE
 
 .price-section__combo-card-number-of-shots-fired{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5px 10px;
     font-size: 14px;
 }
@@ -1636,4 +1566,5 @@ FOOTER
     height: 40px;
     width: 40px;
     margin: 0 10px;
+
 }

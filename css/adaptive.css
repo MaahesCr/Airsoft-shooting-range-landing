@@ -535,6 +535,7 @@
 
     .weapons-section__promising-veapon-card{
         width: 45%;
+        height: 40%;
     }
 
     .weapons-section__promising-veapon-card img{
@@ -676,6 +677,10 @@
         padding: 30px 60px;
     }
 
+    .weapons-section__promising-veapon-card{
+        height: 48%;
+    }
+
     .weapons-section__promising-veapon-card img{
         height: 180px;
         width: auto;
@@ -803,6 +808,7 @@
 
     .weapons-section__promising-veapon-card{
         width: 45%;
+        height: 50%;
     }
 
     .photo-section__photo-img{
@@ -951,10 +957,6 @@
 
     .weapons-section{
         padding: 40px 100px;
-    }
-
-    .weapons-section__card{
-        width: 30%;
     }
 
     .weapons-section__promising-veapon{

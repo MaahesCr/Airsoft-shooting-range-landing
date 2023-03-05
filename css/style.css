@@ -498,6 +498,7 @@ WEAPONS
     border-radius: 20px;
     height: auto;
     z-index: 10;
+    height: 100%;
 }
 
 .weapons-section__card-carusel{
@@ -592,6 +593,12 @@ WEAPONS
 
 .weapons-section__card:nth-child(2){
     margin: 0 30px;
+}
+
+.weapons-section__gun-card{
+    width: 100%;
+    margin-bottom: 30px;
+    height: auto;
 }
 
 .weapons-section::after{ 

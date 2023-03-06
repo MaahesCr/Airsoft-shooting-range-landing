@@ -1307,7 +1307,8 @@ PRICE
 }
 
 .price-section__center-price img{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .price-section__bottom-curls{

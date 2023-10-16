@@ -239,8 +239,10 @@
     justify-content: center;
 }
 
-.start-section__text-tiger-tir{
-    margin: 0 15%;
+.start-section__tir-text-logo{
+    color: #FFE925;
+    text-align: center;
+    font-size: 48px;
 }
 
 .start-section__text-multi-tir{
@@ -284,6 +286,7 @@
     text-align: center;
     color: #5b5b5b;
     background: #FFE925;
+    border: none; outline: none;
 }
 
 .start-section__icons-bar{
@@ -319,15 +322,6 @@
 }
 
 .start-section__waves{
-    /*
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    */
-    /*
-    z-index: 1;
-    margin: -150px -165px 0 -165px;
-    */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -336,9 +330,6 @@
 
 .start-section__waves path{
     width: 100vw;
-    /*position: absolute;
-    bottom: 0;
-    left: 0; */   
 }
 
 

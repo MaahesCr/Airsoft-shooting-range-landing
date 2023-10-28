@@ -486,11 +486,6 @@ WEAPONS
     display: flex;
 }
 
-.weapons-section__bottom-line{
-    display: flex;
-    margin-top: 60px;
-}
-
 .weapons-section__card{
     padding: 12px;
     background-color: #ECECEC;

@@ -158,14 +158,6 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    
-    .weapons-section__bottom-line{
-        display: flex;        
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 0px;
-    }
 
     .weapons-section__card:nth-child(2){
         margin-left: 0;
@@ -484,11 +476,6 @@
 
     .weapons-section__card{
         width: 100%;
-    }
-
-    
-    .weapons-section__bottom-line{
-        margin-top: 20px;
     }
 
     .weapons-section__card:nth-child(2){

@@ -50,7 +50,7 @@
 </head>
 <body>
     
-    <div id="start-animation" class="start-animation">
+    <!--<div id="start-animation" class="start-animation">
         <script>
             let animation = bodymovin.loadAnimation({   
             container: document.getElementById('start-animation'),
@@ -61,7 +61,7 @@
             name: "Demo Animation",
             }); 
         </script>
-    </div>
+    </div>-->
     
 
     <header class="header" id="header">
@@ -109,7 +109,6 @@
 
             <div class="col-lg-6 start-section__text-logo">
                 <div class="col-lg-10 start-section__yellow-text-block">
-                    <h1 class="start-section__tir-text-logo">ТИР</h1>
                     <h3 class="start-section__text-multi-tir">Пневматический мультимедийный тир </h3>
                 </div>
                 <h5 class="col-lg-12 start-section__text-tir-description">Зрелищное, увлекательное место отдыха для взрослых и детей. 
@@ -149,7 +148,7 @@
         <div class="modes-section__central-content">
             <div class="col-lg-2 modes-section__carusel-content">
                 <div class="modes-section__bookmark">
-                    <h6>В Tiger Tir можно опробовать свои силы в десятках различных режимах и сюжетах!</h6>
+                    <h6>В тире можно опробовать свои силы в десятках различных режимах и сюжетах!</h6>
                 </div>
                 <div class="container">
                     <div class="carousel-rotate360">
@@ -165,7 +164,7 @@
                     </div>
                   </div>
                   <div class="modes-section__bookmark" style="visibility: hidden;">
-                    <h6>В Tiger Tir можно опробовать свои силы в десятках различных режимах и сюжетах!</h6>
+                    <h6>В тире можно опробовать свои силы в десятках различных режимах и сюжетах!</h6>
                 </div>
             </div>
             <div class="col-lg-1"></div>
@@ -188,8 +187,108 @@
     </section>
 
     <section class="weapons-section section" id="weapons-section">
-    
-            <div class="col-lg-4 weapons-section__card weapons-section__card-first-animation-card">
+        <div class="weapons-section__upper-line">
+            <div class="col-lg-5 weapons-section__card weapons-section__card-first-animation-card">
+                <div id="carouselExampleIndicators" class="weapons-section__card-carusel carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/AK74-1.PNG" loading="lazy" class="weapons-section__card-img d-block w-100" alt="AK74">
+                            <h5 class="weapons-section__card-name">АВТОМАТ АКС-74</h5>
+                            <div class="weapons-section__card-text">
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header"> МАТЕРИАЛ ИЗГОТОВЛЕНИЯ </p>
+                                <p class="weapons-section__card-text-pararg"> ABS-пластик / Сталь    </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header"> ЕМКОСТЬ МАГАЗИНА    </p>
+                                <p class="weapons-section__card-text-pararg">150 шаров    </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header">ТИП МАГАЗИНА    </p>
+                                <p class="weapons-section__card-text-pararg">Механический    </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header">ОСОБЕННОСТИ МОДЕЛИ  </p>
+                                <p class="weapons-section__card-text-pararg">Складной приклад </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./img/AKS74-1.png" loading="lazy" class="weapons-section__card-img d-block w-100" alt="AK74">
+                            <h5 class="weapons-section__card-name">АВТОМАТ АКС-74У</h5>
+                            <div class="weapons-section__card-text">
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header"> МАТЕРИАЛ ИЗГОТОВЛЕНИЯ </p>
+                                <p class="weapons-section__card-text-pararg"> ABS-пластик / Сталь    </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header"> ЕМКОСТЬ МАГАЗИНА    </p>
+                                <p class="weapons-section__card-text-pararg">150 шаров   </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header">ТИП МАГАЗИНА    </p>
+                                <p class="weapons-section__card-text-pararg">Механический    </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header">ОСОБЕННОСТИ МОДЕЛИ  </p>
+                                <p>Складной приклад </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 weapons-section__card weapons-section__card-second-animation-card">
+                <div id="carouselExampleIndicators2" class="weapons-section__card-carusel carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/MP-512C.jpeg" loading="lazy" class="weapons-section__card-img d-block w-100" alt="AK74"> 
+                            <h5 class="weapons-section__card-name">Винтовка MP-512 24</h5>
+                            <div class="weapons-section__card-text">
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header"> МАТЕРИАЛ ИЗГОТОВЛЕНИЯ </p>
+                                <p class="weapons-section__card-text-pararg"> Дерево / Пластик / Сталь   </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header"> ЕМКОСТЬ МАГАЗИНА    </p>
+                                <p class="weapons-section__card-text-pararg">1 шар   </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header">ТИП МАГАЗИНА    </p>
+                                <p class="weapons-section__card-text-pararg">Механический    </p>
+                                <hr class="weapons-section__card-hr">
+                                <p class="weapons-section__card-text-header">ОСОБЕННОСТИ МОДЕЛИ  </p>
+                                <p>Складной приклад </p>
+                            </div>
+                        </div>
+                    <div class="carousel-item">
+                        <img src="./img/AKS74-2.png" loading="lazy" class="weapons-section__card-img d-block w-100" alt="AK74">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"  data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"  data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="weapons-section__bottom-line">
+            <div class="col-lg-5 weapons-section__card weapons-section__card-first-animation-card">
                 <div id="carouselExampleIndicators" class="weapons-section__card-carusel carousel slide" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
@@ -220,28 +319,21 @@
                 <h5 class="weapons-section__card-name">АВТОМАТ АКС-74</h5>
                 <div class="weapons-section__card-text">
                     <hr class="weapons-section__card-hr">
-                    <p> МАТЕРИАЛ ИЗГОТОВЛЕНИЯ </p>
-                    <br>
-                    <p> ABS-пластик / Сталь    </p>
-                    <br>
+                    <p class="weapons-section__card-text-header"> МАТЕРИАЛ ИЗГОТОВЛЕНИЯ </p>
+                    <p class="weapons-section__card-text-pararg"> ABS-пластик / Сталь    </p>
                     <hr class="weapons-section__card-hr">
-                    <p> ЕМКОСТЬ МАГАЗИНА    </p>
-                    <br>
-                    <p>150 шаров   </p>
-                    <br>
+                    <p class="weapons-section__card-text-header"> ЕМКОСТЬ МАГАЗИНА    </p>
+                    <p class="weapons-section__card-text-pararg">150 шаров    </p>
                     <hr class="weapons-section__card-hr">
-                    <p>ТИП МАГАЗИНА    </p>
-                    <br>
-                    <p>Механический    </p>
-                    <br>
+                    <p class="weapons-section__card-text-header">ТИП МАГАЗИНА    </p>
+                    <p class="weapons-section__card-text-pararg">Механический    </p>
                     <hr class="weapons-section__card-hr">
-                    <p>ОСОБЕННОСТИ МОДЕЛИ  </p>
-                    <br>
-                    <p>Складной приклад </p>
+                    <p class="weapons-section__card-text-header">ОСОБЕННОСТИ МОДЕЛИ  </p>
+                    <p class="weapons-section__card-text-pararg">Складной приклад </p>
                 </div>
             </div>
 
-            <div class="col-lg-4 weapons-section__card weapons-section__card-second-animation-card">
+            <div class="col-lg-5 weapons-section__card weapons-section__card-second-animation-card">
                 <div id="carouselExampleIndicators2" class="weapons-section__card-carusel carousel slide" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
@@ -272,79 +364,19 @@
                 <h5 class="weapons-section__card-name">АВТОМАТ АКС-74У</h5>
                 <div class="weapons-section__card-text">
                     <hr class="weapons-section__card-hr">
-                    <p> МАТЕРИАЛ ИЗГОТОВЛЕНИЯ </p>
-                    <br>
-                    <p> ABS-пластик / Сталь    </p>
-                    <br>
+                    <p class="weapons-section__card-text-header"> МАТЕРИАЛ ИЗГОТОВЛЕНИЯ </p>
+                    <p class="weapons-section__card-text-pararg"> ABS-пластик / Сталь    </p>
                     <hr class="weapons-section__card-hr">
-                    <p> ЕМКОСТЬ МАГАЗИНА    </p>
-                    <br>
-                    <p>150 шаров   </p>
-                    <br>
+                    <p class="weapons-section__card-text-header"> ЕМКОСТЬ МАГАЗИНА    </p>
+                    <p class="weapons-section__card-text-pararg">150 шаров   </p>
                     <hr class="weapons-section__card-hr">
-                    <p>ТИП МАГАЗИНА    </p>
-                    <br>
-                    <p>Механический    </p>
-                    <br>
+                    <p class="weapons-section__card-text-header">ТИП МАГАЗИНА    </p>
+                    <p class="weapons-section__card-text-pararg">Механический    </p>
                     <hr class="weapons-section__card-hr">
-                    <p>ОСОБЕННОСТИ МОДЕЛИ  </p>
-                    <br>
+                    <p class="weapons-section__card-text-header">ОСОБЕННОСТИ МОДЕЛИ  </p>
                     <p>Складной приклад </p>
                 </div>
             </div>
-
-
-        <div class="col-lg-4 weapons-section__promising-veapon">
-            <!---->
-           <div class="col-lg-4 weapons-section__card weapons-section__gun-card">
-            <div id="carouselExampleIndicators4" class="weapons-section__card-carusel carousel slide" data-bs-ride="carousel">
-
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/KWS1.png" loading="lazy" class="weapons-section__card-img d-block w-100" alt="KWS SigSauer SP2022"> 
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/KWS2.png" loading="lazy" class="weapons-section__card-img d-block w-100" alt="KWS SigSauer SP2022">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/KWS3.png" loading="lazy" class="weapons-section__card-img d-block w-100" alt="KWS SigSauer SP2022">
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"  data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Предыдущий</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"  data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Следующий</span>
-                </button>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-            </div>
-            <h5 class="weapons-section__card-name">Пистолет KWS SigSauer SP2022</h5>
-            <div class="weapons-section__card-text">
-                <hr class="weapons-section__card-hr">
-                <p> Емкость магазина</p>
-                <br>
-                <p>15 Шаров</p>
-                
-                <hr class="weapons-section__card-hr">
-                <p>ОСОБЕННОСТИ МОДЕЛИ</p>
-                <br>
-                <p>Питание от баллончиков CO2</p>
-            </div>
-        </div>
-
-           <!--------------------------------------->
-
-            
-           <div class="weapons-section__promising-veapon-card weapons-section__promising-veapon-card-two">
-            <img loading="lazy" src="./img/SKAR.png" alt="Deagle">
-            <h6>Скоро в наличии...</h6>
-          </div> 
         </div>
     </section>
 
@@ -413,207 +445,6 @@
     </section>
 
     <section class="events-section section" id="events-section">
-        <div class="events-section__cards">
-            <div class="events-section__first-line">
-                <div class="events-section__card">
-                    <img loading="lazy" src="./img/Shooting_competitions1-min.jpeg" alt="Shooting competitions">
-                    <div class="events-section__card-bottom">
-                        <div class="events-section__after-image"></div>
-                        <div class="events-section__card-text-div">
-                            <h3>ДЕНЬ РОЖДЕНИЯ ПАКЕТ "LIGHT"</h3>
-                            
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      Описание
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Аренда двух залов (тир и банкетный зал) 2 часа, программа с ведущим 1 час, чаепитие в банкетном зале, настольные игры, стрельба в тире со скидкой до 20%, фоновая музыка, Smart TV. Количество гостей до 12 человек.
-                                        </p>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="events-section__button">
-                                <a href="#sign-up-for-services-form">
-                                    <button>4 990 ₽</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="events-section__card">
-                    <img loading="lazy" src="./img/Shooting_competitions2-min.jpeg" alt="Shooting competitions">
-                    <div class="events-section__card-bottom">
-                        <div class="events-section__after-image"></div>
-                        <div class="events-section__card-text-div">
-                            <h3>ДЕНЬ РОЖДЕНИЯ ПАКЕТ "CLASSIC"</h3>
-
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                      Описание
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Аренда двух залов (тир и банкетный зал) 2 часа, программа с инструктором и гостями в тире 1 час, чаепитие в банкетном зале, настольные игры, стрельба в тире со скидкой до 20%, фоновая музыка, Smart TV. Количество гостей до 12 человек.
-                                        </p>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="events-section__button">
-                                <a href="#sign-up-for-services-form">
-                                    <button>7 990 ₽</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="events-section__card">
-                    <img loading="lazy" src="./img/Shooting_competitions3-min.jpeg" alt="Shooting competitions">
-                    <div class="events-section__card-bottom">
-                        <div class="events-section__after-image"></div>
-                        <div class="events-section__card-text-div">
-                            <h3>ДЕНЬ РОЖДЕНИЯ ПАКЕТ "LUXE"</h3>
-
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                      Описание
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            В этом пакете мы дарим торт в подарок имениннику (подробности у администратора). <br/>
-                                            Аренда двух залов (тир и банкетный зал) 2 часа, программа с инструктором и гостями в тире 1 час, программа с ведущим 30 мин, чаепитие в банкетном зале, украшение зала, настольные игры, стрельба в тире со скидкой до 20%, фоновая музыка, Smart TV. Количество гостей до 12 человек.
-                                        </p>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="events-section__button">
-                                <a href="#sign-up-for-services-form">
-                                    <button>11 990 ₽</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="events-section__second-line">
-                <div class="events-section__card">
-                    <img loading="lazy" src="./img/Shooting_competitions4-min.jpeg" alt="Shooting competitions">
-                    <div class="events-section__card-bottom">
-                        <div class="events-section__after-image"></div>
-                        <div class="events-section__card-text-div">
-                            <h3>КОРПОРАТИВ</h3>
-
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                      Описание
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Аренда двух залов (тир и банкетный зал) 2 часа, соревнование по стрельбе 1 час, сервировка стола, чаепитие в банкетном зале: предоставляем кулер с водой и чёрный чай, фоновая музыка, Smart TV. Количество гостей до 12 человек.
-                                        </p>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="events-section__button">
-                                <a href="#sign-up-for-services-form">
-                                    <button>9 990-12 990 ₽</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="events-section__card">
-                    <img loading="lazy" src="./img/Shooting_competitions5-min.jpeg" alt="Shooting competitions">
-                    <div class="events-section__card-bottom">
-                        <div class="events-section__after-image"></div>
-                        <div class="events-section__card-text-div">
-                            <h3>СОРЕВНОВАНИЯ ПО СТРЕЛЬБЕ </h3>
-
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingFive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                      Описание
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Аренда тира 1 час (тир работает только для вас), соревнование по стрельбе 40-50 мин, фоновая музыка, фото/видео с оружием, награждение всех участников и победителя соревнования.
-                                        </p>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div class="events-section__button">
-                                <a href="#sign-up-for-services-form">
-                                    <button>1000 ₽/чел</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="events-section__card">
-                    <img loading="lazy" src="./img/Shooting_competitions6-min.jpeg" alt="Shooting competitions">
-                    <div class="events-section__card-bottom">
-                        <div class="events-section__after-image"></div>
-                        <h3>СЕКЦИЯ ПО СТРЕЛЬБЕ</h3>
-
-                        <div class="accordion accordion-flush" style="width: 100%;" id="accordionFlushExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="flush-headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                  Описание
-                                </button>
-                              </h2>
-                              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Занятие 2 раза в неделю. <br/> В программу обучения входит: навыки и культура безопасного обращения с оружием; основы меткого выстрела из автоматов и винтовки; изучение устройства стрелкового оружия; правила пулевой стрельбы; практические занятия и тренировки в стрельбе по мишеням различной сложности.
-                                    </p>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-
-                        <div class="events-section__button">
-                            <a href="#sign-up-for-services-form">
-                                <button>от 3000 ₽</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="events-section__bottom-div">
             <div class="events-section__events-div">

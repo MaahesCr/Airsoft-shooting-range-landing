@@ -153,17 +153,6 @@
     transform: translateY(0%);
   }
 
-.events-section__card{
-  opacity: 0;
-  transform: translateY(30px);
-}
-
-.events-section__card.element-show {
-  opacity: 1;
-  transition: ease-in-out 0.5s;
-  transform: translateY(0%);
-}
-
   .scrolled{
     height: 40px;
     background: linear-gradient(rgb(26, 26, 26), rgb(26, 26, 26, 0.2));

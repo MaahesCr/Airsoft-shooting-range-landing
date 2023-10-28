@@ -24,7 +24,7 @@ window.onload =function() {
         $("#start-animation").css({display: 'none'})
       },500)
 
-    }, 500);
+    }, 0);
   })
 
 }
@@ -57,8 +57,7 @@ function onEntry(entry) {
                       document.querySelectorAll('.price-section__combo-card-third'),
                       document.querySelectorAll('.blue-card'),
                       document.querySelectorAll('.purple-card'),
-                      document.querySelectorAll('.yellow-card'),
-                      document.querySelectorAll('.events-section__card')
+                      document.querySelectorAll('.yellow-card')
                     ];
 
   for (let elm of elements) {

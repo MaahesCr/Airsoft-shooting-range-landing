@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Play';
+    font-weight: 400;
 }
 
 .start-animation{
@@ -239,12 +241,6 @@
     justify-content: center;
 }
 
-.start-section__tir-text-logo{
-    color: #FFE925;
-    text-align: center;
-    font-size: 48px;
-}
-
 .start-section__text-multi-tir{
     margin: 10px 0;
     font-family: 'Play';
@@ -481,15 +477,27 @@ WEAPONS
     padding: 60px 165px;
     display: flex;
     position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }   
 
+.weapons-section__upper-line{
+    display: flex;
+}
+
+.weapons-section__bottom-line{
+    display: flex;
+    margin-top: 60px;
+}
+
 .weapons-section__card{
-    padding: 20px;
+    padding: 12px;
     background-color: #ECECEC;
     border-radius: 20px;
     height: auto;
     z-index: 10;
-    height: 100%;
+    width: 47%;
 }
 
 .weapons-section__card-carusel{
@@ -517,21 +525,21 @@ WEAPONS
     text-align: center;
 }
 
-.weapons-section__card-text{
-    font-family: 'Play';
-    font-weight: 400;
+.weapons-section__card-text-header{
     font-size: 16px;
-    line-height: 16px;
+    line-height: 30px;
+    font-weight: bold;
     letter-spacing: 0.09em;
     color: #353535;
     margin-bottom: 0;
 }
 
-.weapons-section__card-text p{
+.weapons-section__card-text-pararg{
     font-family: 'Play';
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
+    line-height: 30px;
     letter-spacing: 0.09em;
     color: #353535;
     margin-bottom: 0;
@@ -543,12 +551,15 @@ WEAPONS
 }
 
 .weapons-section__promising-veapon{
-    padding-right: 60px;
+    margin-top: 60px;
     z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .weapons-section__promising-veapon-card{
-    width: 100%;
     background-color: #c5c5c5;
     border-radius: 20px;
     padding: 20px;
@@ -583,11 +594,10 @@ WEAPONS
 }
 
 .weapons-section__card:nth-child(2){
-    margin: 0 30px;
+    margin-left: 60px;
 }
 
 .weapons-section__gun-card{
-    width: 100%;
     margin-bottom: 30px;
     height: auto;
 }
@@ -680,83 +690,7 @@ EVENTS
     background-size: cover;
 }
 
-.events-section__first-line{
-    display: flex;
-}
-
-.events-section__card{
-    background-color: #003333;
-    border-radius: 15px;
-    width: 50%;
-    z-index: 5000;
-    box-shadow: -3px 3px 6px #0000007a;
-    height: 100%;
-}
-
-.events-section__card:nth-child(2){
-    margin: 0 30px;
-}
-
-.events-section__card img{
-    width: 100%;
-    height: auto;
-    max-height: 250px;
-    background-size: cover;
-    border-radius: 15px;
-    object-fit: cover;
-}
-
-.events-section__after-image{
-    height: 15px;
-    width: 100%;
-    background-color: #003333;
-    top: -15px;
-    position: absolute;
-}
-
-.events-section__card-text-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-}
-
 /*-----------------*/
-
-.accordion-item{
-    background-color: #003333;
-}
-
-.accordion-button{
-    background-color: #003333;
-    color: #FFF8BC;
-    padding: 15px 20px;
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.045em;
-    text-shadow: 3px 3px #000000;
-}
-
-.accordion-button:focus{
-    box-shadow: none;
-}
-
-.accordion-button::after{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFF8BC'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");               
-}
-
-.accordion-button:not(.collapsed)::after{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23bcc2ff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
-
-.accordion-button:not(.collapsed) {
-    background-color: #003333;
-    color: #bcc2ff;
-    box-shadow: none;
-}
 
 .accordion-body{
     background-color: #003333;
@@ -774,30 +708,6 @@ EVENTS
 }
 
 /*-----------------*/
-
-.events-section__card-bottom{
-    width: 100%;
-    background-color: #003333;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 15px;
-    border-radius: 15px;
-}
-
-.events-section__card-bottom h3{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    padding: 0 20px;
-    text-align: center;
-    letter-spacing: 0.045em;
-    color: #FFE925;
-    text-shadow: 3px 3px #000000;
-}
 
 .events-section__button{
     width: 100%;
@@ -822,19 +732,6 @@ EVENTS
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.045em;
-}
-
-.events-section__second-line{
-    margin-top: 30px;
-    display: flex;
-}
-
-.events-section__second-line .events-section__card{
-    width: 50%;
-}
-
-.events-section__second-line .events-section__card:nth-child(2){
-    margin: 0 30px;
 }
 
 /*--bottom--*/

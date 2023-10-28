@@ -149,36 +149,34 @@
     }
 
     .weapons-section__card{
-        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .weapons-section__upper-line{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .weapons-section__bottom-line{
+        display: flex;        
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0px;
     }
 
     .weapons-section__card:nth-child(2){
-        margin: 0;
+        margin-left: 0;
+    }
+
+    .weapons-section__card{
         margin-bottom: 25px;
     }
 
     .weapons-section__card-hr{
         margin: 2px 0;
-    }
-
-    br{
-        display: none;
-    }
-
-    .weapons-section__card-text p{
-        margin-bottom: 4px;
-        line-height: 20px;
-    }
-
-    .weapons-section__promising-veapon{
-        display: flex;
-        flex-direction: column;
-        padding-right: 0;
-        margin-bottom: 25px;
-    }
-
-    .weapons-section__promising-veapon-card{
-        padding: 5px;
     }
 
     /*------------------photo-section*/
@@ -244,37 +242,6 @@
     /*-------------events----------------*/
     .events-section{
         padding:30px 25px
-    }
-
-    .events-section__first-line{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .events-section__card{
-        width: 100%;
-        margin-top:30px;
-    }
-
-    .events-section__card:nth-child(2){
-        margin: 0;
-        margin-top: 30px;
-    }
-
-    .events-section__second-line{
-        flex-direction: column;
-        align-items: center;
-        margin-top: 0;
-    }
-
-    .events-section__second-line .events-section__card{
-        width: 100%;
-        margin-top:30px;
-    }
-
-    .events-section__second-line .events-section__card:nth-child(2){
-        margin: 0;
-        margin-top: 30px;
     }
 
     .events-section__bottom-div{
@@ -516,11 +483,16 @@
     }
 
     .weapons-section__card{
-        width: 45%;
+        width: 100%;
+    }
+
+    
+    .weapons-section__bottom-line{
+        margin-top: 20px;
     }
 
     .weapons-section__card:nth-child(2){
-        margin-left: 25px;
+        margin-bottom: 0;
     }
 
     .weapons-section__first-veapon-card{
@@ -565,37 +537,6 @@
         padding:30px 40px
     }
 
-    .events-section__first-line{
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    .events-section__card{
-        margin-top: 0;
-    }
-
-    .events-section__card:nth-child(2){
-        margin: 0 10px;
-
-    }
-
-    .events-section__card-bottom{
-        padding-bottom: 10px;
-    }
-
-    .events-section__card-bottom h3{
-        font-size: 12px;
-        line-height: 18px;
-        padding: 0 10px;
-        margin-bottom: 0;
-    }
-
-    .accordion-button{
-        padding: 10px 10px;
-        font-size: 12px;
-        line-height: 18px;
-    }
-
     .accordion-body{
         padding: 0 10px;
     }
@@ -614,20 +555,6 @@
         line-height: 16px;
         padding: 3px;
         border-radius: 7px;
-    }
-
-    .events-section__second-line{
-        flex-direction: row;
-        align-items: flex-start;
-        margin-top: 20px;
-    }
-
-    .events-section__second-line .events-section__card:nth-child(2){
-        margin: 0 10px;
-    }
-
-    .events-section__second-line .events-section__card{
-        margin: 0;
     }
 
     .events-section__bottom-div{
@@ -692,14 +619,6 @@
 
     .events-section{
         padding: 30px 60px;
-    }
-
-    .events-section__card:nth-child(2){
-        margin: 0 15px;
-    }
-
-    .events-section__second-line .events-section__card:nth-child(2) {
-        margin: 0 15px;
     }
 
     .events-section__events-div{
@@ -795,7 +714,7 @@
     }
 
     .weapons-section__card:nth-child(2){
-        margin: 0;
+        margin-left: 60px;
     }
 
     .weapons-section__promising-veapon{
@@ -817,14 +736,6 @@
 
     .events-section{
         padding: 40px 80px;
-    }
-
-    .events-section__card:nth-child(2){
-        margin: 0 20px;
-    }
-
-    .events-section__second-line .events-section__card:nth-child(2){
-        margin: 0 20px;
     }
 
     .question-section{
@@ -973,14 +884,6 @@
         padding: 40px 100px;
     }
 
-    .events-section__card:nth-child(2){
-        margin: 0 25px;
-    }
-
-    .events-section__second-line .events-section__card:nth-child(2){
-        margin: 0 25px;
-    }
-
     .question-section{
         padding: 40px 100px;
     }
@@ -1072,14 +975,6 @@
 
     .events-section{
         padding: 80px 200px;
-    }
-
-    .events-section__card:nth-child(2){
-        margin: 0 40px;
-    }
-
-    .events-section__second-line .events-section__card:nth-child(2){
-        margin: 0 40px;
     }
 
     .question-section{

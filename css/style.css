@@ -1370,7 +1370,7 @@ FOOTER
     width: 350px;
     height: auto;
     z-index: 1;
-    margin-left: -175px;
+    margin-left: -125px;
     padding-top: 105px;
 }
 
@@ -1457,5 +1457,4 @@ FOOTER
     height: 40px;
     width: 40px;
     margin: 0 10px;
-
 }

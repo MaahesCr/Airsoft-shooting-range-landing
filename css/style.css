@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Play';
     font-weight: 400;
+    letter-spacing: 0.04em;
 }
 
 .start-animation{
@@ -175,14 +176,10 @@
 }
 
 .header__nav-a{
-    font-family: 'Play', sans-serif;
-    font-weight: 400;
     color: #ECECEC;
     text-decoration: none;
     font-size: 18px;
     transition: all 0.2s ease;
-    border-bottom: 0px solid #ecf0f1;
-
 }
 
 .header__nav-a:hover{
@@ -198,17 +195,10 @@
 .start-section{
     display: flex;
     flex-direction:column;
-    
     justify-content: space-between;
     padding: 0 165px;
     height: 100vh;
-    background-image: url('../img/weaponPatern.png')
-    , radial-gradient(
-    circle 
-    40em at 30% 50%,
-    #000 0%,
-    #003333 100%
-    );
+    background-image: url('../img/weaponPatern.png'), radial-gradient(circle 40em at 30% 50%,#000 0%,#003333 100%);
     background-size: cover;
 }
 
@@ -221,11 +211,7 @@
     display: flex;
     flex-direction: row;
     align-content: center;
-}
-
-.start-section__central-content img{
-    
-    height: auto;
+    gap: 20px;
 }
 
 .start-section__img-logo{
@@ -239,29 +225,20 @@
     flex-direction: column; 
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .start-section__text-multi-tir{
-    margin: 10px 0;
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
-    letter-spacing: 0.04em;
     color: #DAFF8C;
 }
 
 .start-section__text-tir-description{
-    margin: 0;
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    letter-spacing: 0.04em;
     color: #ECECEC;
 }
 
@@ -272,17 +249,15 @@
 
 .start-section__submit-btn{
     padding: 15px;
-    margin-top: 15px;
     border-radius: 15px;
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #5b5b5b;
     background: #FFE925;
-    border: none; outline: none;
+    border: none; 
+    outline: none;
 }
 
 .start-section__icons-bar{
@@ -307,14 +282,9 @@
 }
 
 .start-section__icons-bar-block h6 {
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 23px;
-    letter-spacing: 0.09em;
     color: #ECECEC;
-    margin-bottom: 0;
 }
 
 .start-section__waves{
@@ -327,7 +297,6 @@
 .start-section__waves path{
     width: 100vw;
 }
-
 
 /*
 ------------------
@@ -381,13 +350,10 @@ MODES
 }
 
 .modes-section__bookmark h6{
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
     text-align: left;
-    letter-spacing: 0.04em;
     color: #CCCCCC;
 }
 
@@ -400,13 +366,10 @@ MODES
 }
 
 .modes-section__cards-question{
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 33px;
     text-align: center;
-    letter-spacing: 0.04em;
     color: #D8D8D8;
 }
 
@@ -432,12 +395,8 @@ MODES
 }
 
 .modes-section__card h4{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.04em;
     color: rgba(0, 0, 0, 0.8);
 }
 
@@ -511,11 +470,9 @@ WEAPONS
 }
 
 .weapons-section__card-name{
-    font-family: 'Play';
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    letter-spacing: 0.09em;
     color: #353535;
     text-align: center;
 }
@@ -530,12 +487,9 @@ WEAPONS
 }
 
 .weapons-section__card-text-pararg{
-    font-family: 'Play';
-    font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     line-height: 30px;
-    letter-spacing: 0.09em;
     color: #353535;
     margin-bottom: 0;
 }
@@ -578,11 +532,9 @@ WEAPONS
 }
 
 .weapons-section__promising-veapon-card h6{
-    font-family: 'Play';
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
-    letter-spacing: 0.09em;
     color: #353535;
     text-align: center;
     opacity: 0.75; 
@@ -693,9 +645,6 @@ EVENTS
 
 .accordion-body p{
     color: rgb(224, 224, 224);
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.045em;
@@ -720,8 +669,6 @@ EVENTS
     padding: 7px;
     border-radius: 15px;
     color: #003333;
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
@@ -744,22 +691,15 @@ EVENTS
 }
 
 .events-section__events-div h2{
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 22px;
-    letter-spacing: 0.09em;
     color: #FFF8BC;
 }
 
 .events-section__events-table{
     width: 100%;
     margin-top: 30px;
-
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 16px;
     color: #DADADA;
@@ -834,8 +774,6 @@ EVENTS
 /**/
 
 .events-section__form-header{
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 18px;
@@ -845,9 +783,6 @@ EVENTS
 }
 
 .events-section__form-description-text{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -859,13 +794,8 @@ EVENTS
     padding: 10px;
     border-radius: 15px;
     border: 0px;
-
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    letter-spacing: 0.09em;
     margin: 10px 0;
 }
 
@@ -883,24 +813,17 @@ EVENTS
     padding: 10px;
     border-radius: 15px;
     color: #5b5b5b;
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
     text-align: center;
-    letter-spacing: 0.009em;
     margin: 10px 0;
     border: none;
 }
 
 .events-section__form-agreement{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    letter-spacing: 0.09em;
 }
 
 .events-section__form-agreement-link{
@@ -922,23 +845,16 @@ EVENTS
 }
 
 .events-section__form-success h4{
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
-    letter-spacing: 0.09em;
     text-align: center;
     color: rgb(228, 228, 228);
 }
 
 .events-section__form-success h5{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    letter-spacing: 0.09em;
     text-align: center;
     color: rgb(228, 228, 228);
 }
@@ -1006,13 +922,9 @@ QUESTION
 }
 
 .question-section__ask-block h5{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
-    letter-spacing: 0.09em;
     color: #fff085;
 }
 
@@ -1038,13 +950,9 @@ QUESTION
 }
 
 .question-section__answer-block h5{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
-    letter-spacing: 0.09em;
     color: #8576B0;
 }
 
@@ -1111,12 +1019,9 @@ PRICE
     position: relative;
     z-index: 20;
     width: 100%;
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 22px;
-    letter-spacing: 0.09em;
     color: #ECECEC;
 }
 
@@ -1153,12 +1058,9 @@ PRICE
     position: relative;
     z-index: 20;
     width: 100%;
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 22px;
-    letter-spacing: 0.09em;
     color: hsla(54, 100%, 57%, 0.75);
 }
 
@@ -1179,11 +1081,8 @@ PRICE
 }
 
 .price-section__prize-card-paragraph{
-    font-family: 'Play';
-    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    letter-spacing: 0.09em;
     color: #E3E3E3;
 }
 
@@ -1200,16 +1099,8 @@ PRICE
 }
 /*------*/
 
-
-.price-section__combo-line{
-    display: flex;
-    width: 100%;
-}
-
 .price-section__combo-card{
-    /*width: 33.33%;*/
     width: 100%;
-    /**/
     background-color: #033333;
     border-radius: 15px;
     overflow: hidden;
@@ -1229,19 +1120,14 @@ PRICE
     padding: 20px;
     display: flex;
     flex-direction: column;
-    font-family: 'Play';
-    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    letter-spacing: 0.09em;
     color: #E3E3E3;
     text-align: center;
     opacity: 0.75; 
 }
 
 .price-section__combo-card-text h3{
-    font-family: 'Play';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 46px;
@@ -1295,154 +1181,6 @@ PRICE
 
 #price-section__combo-card-or{
     font-size: 16px;
-}
-
-.price-section__center{
-    display: flex;
-    justify-content:space-around;
-    margin-top: 15px;
-}
-
-.price-section__center-price{
-    width: 45%;
-}
-
-.price-section__center-price img{
-    width: 90%;
-    margin-left: 5%;
-}
-
-.price-section__bottom-curls{
-    margin-top: -20px;
-}
-
-.price-section__center-price h5{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #DADADA;
-}
-
-.price-section__center-table{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.price-section__center-text{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 36px;
-    /* identical to box height, or 117% */
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #DADADA;
-    margin: 0;
-}
-
-#price-section__bottom-curls-bo12d{
-    width: 20%;
-}
-/*
-------
-PRICE-BOTTOM
-------
-*/
-.price-bottom{
-    display: flex;
-    margin-top: 10px;
-}
-
-.price-bottom__cart{
-    padding: 20px;
-    position: static;
-    border-radius: 15px;
-    width: 33.33%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    position: relative;
-    justify-content: space-between;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.9), 0 2px 4px rgba(0, 0, 0, 0.8);
-
-}
-
-.price-bottom__cart h5{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.04em;
-
-    color: #003333;
-    margin: 0;
-}
-
-.price-bottom__cart h6{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    /* or 117% */
-    letter-spacing: 0.04em;
-    color: #000000;
-    padding: 5px 0;
-    margin: 0;
-}
-
-.price-bottom__cart p{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.04em;
-
-    color: #003333;
-}
-
-.price-bottom__cart-img{
-    position: absolute;
-    bottom: 10px;
-    right: -30px;
-    height: 100px;
-    width: auto;
-    
-}
-
-.blue-card{
-    background:
-      linear-gradient(217deg, rgba(174, 220, 233, 0.9), rgba(255,0,0,0) 70.71%),
-      linear-gradient(127deg, rgba(146, 218, 237, 0.9), rgba(0,255,0,0) 70.71%),
-      linear-gradient(336deg, rgba(81, 201, 234, 0.9), rgba(0,0,255,0) 70.71%);
-    z-index: 300;
-}
-
-.purple-card{
-    background:
-    linear-gradient(217deg, rgba(167, 132, 197, 0.9), rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, rgba(174, 155, 191, 0.9), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(154, 101, 199, 0.9), rgba(0,0,255,0) 70.71%);
-    margin: 0 15px;
-    z-index: 200;
-}
-
-.yellow-card{
-    background:
-    linear-gradient(217deg, rgba(229, 233, 162, 0.9), rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, rgba(231, 236, 122, 0.9), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(227, 235, 87, 0.9), rgba(0,0,255,0) 70.71%);
-    z-index: 100;
 }
 
 /*
@@ -1502,32 +1240,20 @@ FOOTER
 }
 
 .footer__contacts-text-header{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    letter-spacing: 0.09em;
     color: #FFE925;
 }
 
 .footer__contacts-text-adress{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: 0.09em;
     color: #DADADA;
 }
 
 .footer__contacts-text-phone{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: 0.09em;
     color: #DADADA;
     transition: all 0.2s ease;
 }
@@ -1538,12 +1264,8 @@ FOOTER
 }
 
 .footer__contacts-text-email{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: 0.09em;
     color: #DADADA;
     transition: all 0.2s ease;
 }
@@ -1554,12 +1276,8 @@ FOOTER
 }
 
 .footer__contacts-text-operating-mode{
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    letter-spacing: 0.09em;
     color: #DADADA;
 }
 

@@ -44,15 +44,14 @@
 
     .start-section__img-logo img{
         margin-top: 40px;
-        height: 360px;
+        height: 100px;
         width: auto;
-        filter: blur(1.5px);  
     }
 
     .start-section__yellow-text-block{
         display: flex;
         flex-direction: column;
-        height: 340px;
+        height: 140px;
         justify-content: center;
     }
 
@@ -315,10 +314,6 @@
         overflow: hidden;
     }
 
-    .price-section__combo-line{
-        flex-direction: column;
-    }
-
     .price-section__combo-card{
         width: 100%;
     }
@@ -354,45 +349,6 @@
         font-size: 22px;
         line-height: 30px;
         margin-bottom: 2px;
-    }
-
-    .price-section__center{
-        flex-direction: column;
-    }
-
-    .price-section__center-text{
-        font-size: 26px;
-        line-height: 36px;
-    }
-
-    .price-section__center-price{
-        width: 100%;
-    }
-
-    .price-bottom{
-        flex-direction: column;
-    }
-
-    .price-bottom__cart{
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-    }
-
-    .price-bottom__cart h5{
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    .price-bottom__cart p{
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 0;
-    }
-
-    .purple-card{
-        margin: 0;
-        margin-bottom: 15px;
     }
 
     /*---------FOOTER-------------*/

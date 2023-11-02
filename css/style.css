@@ -1085,13 +1085,131 @@ PRICE
     background-size: cover;
 }
 
+/*------*/
+
+.price-section__row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.price-section__left-column{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 60px;
+}
+
+.price-section__cards-block{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.price-section__header{
+    text-align: center;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.09em;
+    color: #ECECEC;
+}
+
+.price-section__cards-line{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.price-section__prize-promotions{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.price-section__prize-cards{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.price-section__prize-card{
+    padding: 20px;
+    background-color: #033333;
+    border-radius: 15px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-section__prize-card-header{
+    text-align: center;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 0.09em;
+    color: hsla(54, 100%, 57%, 0.75);
+}
+
+.price-section__prize-card-subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+
+.price-section__prize-card-subtitle h6{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFF8BC;
+}
+
+.price-section__prize-card-paragraph{
+    font-family: 'Play';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.09em;
+    color: #E3E3E3;
+}
+
+.price-section__prize-card-hr{
+    margin: 4px 5px;
+    color: #DAFF8C;
+}
+
+.price-section__right-column{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+/*------*/
+
+
 .price-section__combo-line{
     display: flex;
     width: 100%;
 }
 
 .price-section__combo-card{
-    width: 33.33%;
+    /*width: 33.33%;*/
+    width: 100%;
+    /**/
     background-color: #033333;
     border-radius: 15px;
     overflow: hidden;

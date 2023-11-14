@@ -682,11 +682,11 @@ EVENTS
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .events-section__events-div{
     width: 200%;
-    margin-right: 60px;
     z-index: 5000;
 }
 
@@ -697,40 +697,67 @@ EVENTS
     color: #FFF8BC;
 }
 
-.events-section__events-table{
-    width: 100%;
-    margin-top: 30px;
-    font-size: 18px;
-    line-height: 16px;
-    color: #DADADA;
-}
-
-.events-section__events-table tr{
+.events-section__central-block{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background: linear-gradient(to left, #D2C2FDe6, #FFF7BDe6 100%);
-    background-position: 0 100%;
-    background-size: 100% 2px;
-    background-repeat: repeat-x;
+    flex-direction: row;
 }
 
+.events-section__central-block-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
-.events-section__events-table td{
-    padding: 15px 0;
+.events-section__central-block-text p{
+    color: #E3E3E3;
+    font-size: 1.25em;
+}
+
+.events-section__central-block-icons{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+}
+
+.events-section__central-block-icon-block{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.events-section__central-block-icons img {
+    height: 50px;
+}
+
+.events-section__central-block-icons p {
+    text-align: center;
+    color: #E3E3E3;
+    font-size: 1.25em;
+}
+
+.events-section__bottom-block{
+    display: flex;
+}
+
+.events-section__bottom-text-block{
+
 }
 
 .events-section__form-div{
     width: 100%;
     z-index: 5000;
-    box-shadow: -3px 3px 6px #0000007a;
-    border-radius: 15px;
+    margin-top: 80px;
 }
 
 .events-section__form-and-anchor{
     position: relative;
-    height: 100%;
+    box-shadow: -3px 3px 6px #0000007a;
+    border-radius: 15px;
 }
 
 #sign-up-for-services-form{
@@ -780,14 +807,6 @@ EVENTS
     text-align: center;
     color: #efefef;
     padding-bottom: 10px;
-}
-
-.events-section__form-description-text{
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #003333;
-    margin-bottom: 0;
 }
 
 .events-section__form-input{
@@ -998,7 +1017,7 @@ PRICE
 .price-section__row{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 60px;
 }
 
 .price-section__left-column{
@@ -1280,7 +1299,7 @@ FOOTER
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 100px;
+    padding-top: 100px;
     padding-left: 165px;
 }
 
@@ -1300,6 +1319,7 @@ FOOTER
     align-items: center;
     padding: 25px 0;
     gap: 15px;
+    z-index: 2;
 }
 
 .footer__contacts-text-header{

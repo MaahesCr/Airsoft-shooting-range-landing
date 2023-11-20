@@ -24,7 +24,6 @@
     <link rel="icon" href="./icon/favicon-32x32.png" sizes="any"><!-- 32×32 -->
     <link rel="icon" href="./icon/android-chrome-512x512.png" type="image/svg+xml">
     <link rel="apple-touch-icon" href="./icon/apple-touch-icon.png"><!-- 180×180 -->
-    <link rel="manifest" href="./icon/site.webmanifest">
     <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
@@ -83,17 +82,14 @@
         </div>
 
         <div class="start-section__central-content">
-            <div class="col-lg-1 adaptive-hidden-div"></div>
-            <div class="col-lg-4 col-md-4 start-section__img-logo">
+            <div class="start-section__img-logo">
                 <img src="./svg/tirLogo.svg" alt="Tiger Tir Logo"> 
             </div>
-            <div class="col-lg-1 adaptive-hidden-div"></div>
-
-            <div class="col-lg-6 start-section__text-logo">
-                <div class="col-lg-10 start-section__yellow-text-block">
+            <div class="start-section__text-logo">
+                <div class="start-section__yellow-text-block">
                     <h3 class="start-section__text-multi-tir">Пневматический мультимедийный тир </h3>
                 </div>
-                <h5 class="col-lg-12 start-section__text-tir-description">Зрелищное, увлекательное место отдыха для взрослых и детей. 
+                <h5 class="start-section__text-tir-description">Зрелищное, увлекательное место отдыха для взрослых и детей. 
                     Направление наших развлечений и спортивных игр, 
                     неизменно привлекает внимание посетителей вот уже 9 лет!
                 </h5>
@@ -128,7 +124,7 @@
 
     <section class="modes-section section" id="modes-section">
         <div class="modes-section__central-content">
-            <div class="col-lg-2 modes-section__carusel-content">
+            <div class="modes-section__carusel-content">
                 <div class="modes-section__bookmark">
                     <h6>В тире можно опробовать свои силы в десятках различных режимах и сюжетах!</h6>
                 </div>
@@ -149,28 +145,41 @@
                     <h6>В тире можно опробовать свои силы в десятках различных режимах и сюжетах!</h6>
                 </div>
             </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-8 modes-section__card-place">
-                <h3 class="modes-section__cards-question">Как это работает?</h3>
+            <div class=" modes-section__card-place">
                 <div class="modes-section__card">
-                    <h4>Проектор выводит мишени и интерактивные видеосюжеты на сенсорный экран, выполненный из специального алюминиевого сплава.</h4>
+                    <div class="modes-section__card-header-block">
+                        <h3>О тире</h3>
+                        <img src="./svg/blackTarget.svg" alt="target">
+                    </div>
+                    <hr>
+                    <div class="modes-section__card-text-block">
+                        <div>
+                            <h4>Стрельба ведется из пневматического оружия настоящими пулями по целям, которые демонстрируются на экране.</h4>
+                        </div>
+                        <h4>В тире есть возможность опробовать более 100 мишеней, в том числе учебно-тренировочные видеосюжеты, фильмы и мультфильмы, стандартные мишени, различные упражнения для проведения соревнований от 2-х человек. </h4>
+                        <h4>В зависимости от уровня подготовки стрелков, инструктор имеет возможность упрощать или усложнять упражнения.</h4>
+                    </div>
                 </div>
-                <div class="modes-section__card modes-section__card-yellow">
-                    <h4>Стрелять можно из разных видов пневматического оружия, арсенал тира регулярно пополняется.</h4>
-                </div>
-                <div class="modes-section__card">
-                    <h4>Электроника экрана с точностью до миллиметра вычисляет координаты попадания, 
-                        что позволяет демонстрировать результат стрельбы. У вас появится возможность участия в самых разные сюжетах и историях, подготовленных командой Tiger Tir.
-                        </h4>
+                <div class="modes-section__card modes-section__card-two">
+                    <div class="modes-section__card-header-block">
+                        <h3>Наши преимущества</h3>
+                        <img src="./svg/blackTarget.svg" alt="target">
+                    </div>
+                    <hr>
+                    <div class="modes-section__card-text-block">
+                        <h4>К стрельбе в тире допускаются лица в возрасте от 4 лет. Дети до 10 лет допускаются к посещению в сопровождении взрослого.</h4>
+                        <h4>Работаем без предварительной записи, в порядке "живой" очереди по нашему режиму работы.</h4>
+                        <h4>Для каждого посетителя проводится инструктаж и бесплатное обучение стрельбе.</h4>
+                        <h4>Одновременно могут стрелять до 2-х человек.</h4>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-1"></div>
         </div>
     </section>
 
     <section class="weapons-section section" id="weapons-section">
         <div class="weapons-section__upper-line">
-            <div class="col-lg-5 weapons-section__card weapons-section__card-first-animation-card">
+            <div class="weapons-section__card weapons-section__card-first-animation-card">
                 <div id="carouselExampleIndicators" class="weapons-section__card-carusel carousel slide" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
@@ -229,7 +238,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 weapons-section__card weapons-section__card-second-animation-card">
+            <div class="weapons-section__card weapons-section__card-second-animation-card">
                 <div id="carouselExampleIndicators2" class="weapons-section__card-carusel carousel slide" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
@@ -267,7 +276,7 @@
                                 <p class="weapons-section__card-text-pararg">Механический    </p>
                                 <hr class="weapons-section__card-hr">
                                 <p class="weapons-section__card-text-header">ОСОБЕННОСТИ МОДЕЛИ  </p>
-                                <p>Складной приклад </p>
+                                <p class="weapons-section__card-text-pararg">Складной приклад </p>
                             </div>
                         </div>
 
@@ -365,11 +374,10 @@
                             <p>Это отличный способ провести праздник современно, активно и необично!</p>
                             <p>В соревнованиях могут учавствовать как дети, так и взрослые</p>
                         </div>
-                        <div>
-                            <img src="" alt="">
-                            <div>
-                                <h6></h6>
-                                <p></p>
+                        <div class="events-section__bottom-price-block events-section__form-shell">
+                            <img src="./svg/money.svg" alt="money">
+                            <div class="events-section__bottom-price-text-block">
+                                <h6>1000₽</h6>
                             </div>
                         </div>
                     </div>
@@ -398,48 +406,11 @@
         </div>
     </section>
 
-    <section class="question-section section" id="question-section"> 
-        <div class="question-section__question-div">
-            <div class="question-section__ask-block">
-                <h5>С какого возраста можно стрелять в таком тире?</h5>
-            </div>
-            <div class="question-section__answer-block">
-                <h5>Посещать пневматический мультимедийный тир, возможно с возраста 5-ти лет, в сопровождении взрослого.</h5>
-            </div>
-        </div>
-
-        <div class="question-section__question-div">
-            <div class="question-section__ask-block">
-                <h5>Если я никогда не стрелял до этого, возможно ли у вас обучиться стрельбе?</h5>
-            </div>
-            <div class="question-section__answer-block">
-                <h5>Научиться стрелять Вам поможет наш инструктор по стрельбе абсолютно БЕСПЛАТНО. Сначала Вам необходимо потренироваться на стандартных и легкого уровня мишенях, но с каждым визитом, уровень сложности будет увеличиваться, в зависимости от скорости обучения.</h5>
-            </div>
-        </div>
-
-        <div class="question-section__question-div">
-            <div class="question-section__ask-block">
-                <h5>Можно ли прийти к вам компанией?</h5>
-            </div>
-            <div class="question-section__answer-block">
-                <h5>Конечно! Мы можем устроить среди вас спортивный турнир по стрельбе и наградить победителей. Также, у нас возможно заказать организацию мероприятия. Наше помещение состоит из 2-х залов, один из которых занимает тир, второй - предназначен для Вашего отдыха. Артисты, фотосъемка, мастер-классы, оформление - все это Вы сможете выбрать при личной встрече.</h5>
-            </div>
-        </div>
-        <div class="question-section__question-div">
-            <div class="question-section__ask-block">
-                <h5>Есть ли у вас какие-либо акции и скидки??</h5>
-            </div>
-            <div class="question-section__answer-block">
-                <h5>Всю информацию по акциям и скидкам мы размещаем в социальных сетях. Подписывайтесь и следите за новостями, чтобы не упустить возможность использовть бонусы!</h5>
-            </div>
-        </div>
-    </section>
-
     <section class="price-section section" id="price-section">
         <div class="price-section__row">
             <div class="price-section__left-column">
                 <div class="price-section__cards-block">
-                    <h4 class="price-section__header">Комбо</h4>
+                    <h4 class="price-section__header price-section__combo-card-first">Комбо</h4>
                     <div class="price-section__cards-line">
                         <div class="price-section__combo-card price-section__combo-card-first">
                             <div class="price-section__combo-card-text">
@@ -454,7 +425,7 @@
                                 <h5 class="price-section__combo-card-price">499₽</h5>
                             </div>
                         </div>
-                        <div class="price-section__combo-card price-section__combo-card-first">
+                        <div class="price-section__combo-card price-section__combo-card-second">
                             <div class="price-section__combo-card-text">
                                 <h3 class="price-section__combo-card-name-of-combo">КОМБО S</h3>
                                 <div class="price-section__combo-card-name-of-modes">
@@ -482,7 +453,7 @@
                                 <h5 class="price-section__combo-card-price">499₽</h5>
                             </div>
                         </div>
-                        <div class="price-section__combo-card price-section__combo-card-first">
+                        <div class="price-section__combo-card price-section__combo-card-second">
                             <div class="price-section__combo-card-text">
                                 <h3 class="price-section__combo-card-name-of-combo">КОМБО S</h3>
                                 <div class="price-section__combo-card-name-of-modes">
@@ -499,9 +470,9 @@
                 </div>  
 
                 <div class="price-section__prize-promotions">
-                    <h4 class="price-section__header">Призовые игры</h4>
+                    <h4 class="price-section__header price-section__combo-card-first">Призовые игры</h4>
                     <div class="price-section__prize-cards">
-                        <div class="price-section__prize-card">
+                        <div class="price-section__prize-card price-section__combo-card-first">
                             <h5 class="price-section__prize-card-header">Детские</h5>
                             <div class="price-section__prize-card-subtitle">
                                 <h6>Деревенские баночки</h6>
@@ -525,7 +496,7 @@
                             <p class="price-section__prize-card-paragraph">Приз: большая игрушка</p>
                         </div>
 
-                        <div class="price-section__prize-card">
+                        <div class="price-section__prize-card price-section__combo-card-second">
                             <h5 class="price-section__prize-card-header">Взрослые</h5>
                             <div class="price-section__prize-card-subtitle">
                                 <h6>Деревенские баночки</h6>
@@ -552,8 +523,8 @@
                 </div>
             </div>
             <div class="price-section__right-column">
-                <div class="price-section__stock-block">
-                    <h4 class="price-section__header">Акции</h4>
+                <div class="price-section__stock-block price-section__combo-card-second">
+                    <h4 class="price-section__header price-section__combo-card-second">Акции</h4>
                     <div class="price-section__stock-card">
                         <div class="price-section__stock-card-text">
                             <h4>1=2</h3>
@@ -576,7 +547,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="price-section__stock-block">
+                <div class="price-section__stock-block price-section__combo-card-second">
                     <h4 class="price-section__header">Супер игра</h4>
                     <div class="price-section__stock-card">
                         <div class="price-section__stock-card-game-text">

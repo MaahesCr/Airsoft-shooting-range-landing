@@ -1,5 +1,4 @@
-
-.modes-section__card{
+.modes-section__card, .modes-section__card-two {
     opacity: 0;
     transform: translateY(50px);
 }
@@ -8,31 +7,15 @@
     opacity: 1;
     transition: ease-in-out 0.3s;
     transform: translateY(0%);
-  }
-
-.question-section__ask-block{
-    opacity: 0;
-    transform: translateY(50px);
 }
 
-.question-section__ask-block.element-show {
+.modes-section__card-two.element-show {
     opacity: 1;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.5s;
     transform: translateY(0%);
   }
 
-  .question-section__answer-block{
-    opacity: 0;
-    transform: translateY(50px);
-}
-
-.question-section__answer-block.element-show {
-    opacity: 1;
-    transition: ease-in-out 0.3s;
-    transform: translateY(0%);
-  }
-
-  .weapons-section__card-first-animation-card{
+.weapons-section__card-first-animation-card{
     opacity: 0;
     transform: translateY(30px);
 }
@@ -43,7 +26,7 @@
     transform: translateY(0%);
   }
 
-  .weapons-section__card-second-animation-card{
+.weapons-section__card-second-animation-card{
     opacity: 0;
     transform: translateY(30px);
 }
@@ -54,7 +37,7 @@
     transform: translateY(0%);
   }
 
-  .weapons-section__promising-veapon{
+.weapons-section__promising-veapon{
     opacity: 0;
     transform: translateY(30px);
 }
@@ -85,9 +68,31 @@
     opacity: 1;
     transition: ease-in-out 0.3s;
     transform: translateY(0%);
-  }
+}
 
-  .price-section__combo-card-first{
+.events-section__form-and-anchor{
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.events-section__form-and-anchor.element-show{
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+  transform: translateY(0%);
+}
+
+.events-section__bottom-block{
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.events-section__bottom-block.element-show{
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+  transform: translateY(0%);
+}
+
+.price-section__combo-card-first{
     opacity: 0;
     transform: translateY(30px);
 }
@@ -98,7 +103,7 @@
     transform: translateY(0%);
   }
 
-  .price-section__combo-card-second{
+.price-section__combo-card-second{
     opacity: 0;
     transform: translateY(30px);
 }
@@ -107,9 +112,9 @@
     opacity: 1;
     transition: ease-in-out 0.5s;
     transform: translateY(0%);
-  }
+}
 
-  .price-section__combo-card-third{
+.price-section__combo-card-third{
     opacity: 0;
     transform: translateY(30px);
 }

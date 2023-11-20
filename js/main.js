@@ -43,37 +43,27 @@ function onEntry(entry) {
   let options = {
     threshold: [0.5] };
   let observer = new IntersectionObserver(onEntry, options);
-  let elements = document.querySelectorAll('.modes-section__card');
   
-  let elementsTwo =  [document.querySelectorAll('.question-section__ask-block'), 
-                      document.querySelectorAll('.question-section__answer-block'),
+  let elementsTwo =  [ 
+                      document.querySelectorAll('.modes-section__card'),
+                      document.querySelectorAll('.modes-section__card-two'),
                       document.querySelectorAll('.weapons-section__card-first-animation-card'),
                       document.querySelectorAll('.weapons-section__card-second-animation-card'),
                       document.querySelectorAll('.weapons-section__promising-veapon'),
                       document.querySelectorAll('.photo-section__first-photo'),
                       document.querySelectorAll('.photo-section__second-photo'),
+                      document.querySelectorAll('.events-section__bottom-block'),
+                      document.querySelectorAll('.events-section__form-and-anchor'),
                       document.querySelectorAll('.price-section__combo-card-first'),
                       document.querySelectorAll('.price-section__combo-card-second'),
-                      document.querySelectorAll('.price-section__combo-card-third'),
-                      document.querySelectorAll('.blue-card'),
-                      document.querySelectorAll('.purple-card'),
-                      document.querySelectorAll('.yellow-card')
+                      document.querySelectorAll('.price-section__combo-card-third')
                     ];
-
-  for (let elm of elements) {
-    observer.observe(elm);
-  }
 
   for (let elm of elementsTwo) {
     for (let point of elm){
       observer.observe(point);
     }
   }
-
-  // всплывающие поочередно окна 
-
-
-  
 
   // NAV HEIGHT
 

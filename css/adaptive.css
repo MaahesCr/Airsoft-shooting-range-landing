@@ -1,624 +1,74 @@
 /*576*/
-@media screen and (max-width: 768px) {
-
+@media screen and (min-width: 1441px) {
     .header__nav{
-        display: none;
+        padding: 0 200px;
     }
 
-    .nav-container{
-        display: block;
-        position: relative;
+    .start-section{
+        padding: 0 200px;
     }
 
-    /**/
-
-    .active-nav-a{
-        color: #ECECEC;
-        text-decoration: none;
-        border-bottom: none;
+    .header__nav-a{
+        font-size: 20px;
     }
 
-    .header__nav {
-        padding: 0 15px;
-    }
-
-    .start-section {
-        padding: 0 25px;
-        height: auto;
-        position: relative;
-    }
-
-    .start-section__central-content{
-        flex-direction: column;
-    }
-
-    .start-section__img-logo{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        justify-content: flex-start;
-    }
-
-    .start-section__img-logo img{
-        margin-top: 40px;
-        height: 100px;
-        width: auto;
-    }
-
-    .start-section__yellow-text-block{
-        display: flex;
-        flex-direction: column;
-        height: 140px;
-        justify-content: center;
-    }
-
-    .start-section__text-logo{
-        z-index: 10;
-    }
-
-    .start-section__text-tiger-tir{
-        padding: 10px 0;
-        background:  radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), transparent , transparent);
+    .header__nav-a:hover {
+        font-size: 21px;
     }
 
     .start-section__text-multi-tir{
-        padding: 10px 0;
-        background:  radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05) , transparent);
+        font-size: 26px;
+        line-height: 32px;
     }
 
-    .start-section__submit-btn{
-        font-size: 16px;
-        padding: 12px;
-    }
-
-    .start-section__icons-bar{
-        flex-direction: column;
-        height: auto;
+    .start-section__text-tir-description{
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .start-section__icons-bar-block h6{
-        margin-right: 15px;
+        font-size: 18px;
+        line-height: 25px;
     }
-
-    .row-reverse{
-        flex-direction: row-reverse;
-    }
-
-    .start-section__icons-bar-block{
-        width: 100%;
-        margin: 10px 0;
-    }
-
-/*------------------------MODES-----------------------------*/
 
     .modes-section{
-        padding: 0 25px;
-        height: auto;
-        overflow: hidden;
-    }
-
-    .modes-section__central-content{
-        flex-direction: column-reverse;
-    }
-
-    .modes-section__cards-question{
-        margin-bottom: 20px;
-    }
-
-    .modes-section__card{
-        margin: 10px 0;
-    }
-
-    .modes-section__card h4{
-        font-size: 16px;
-        line-height: 20px;
+        padding: 0 200px;
     }
 
     .modes-section__bookmark{
-        left: 0;
-        width: auto;
-        height: auto;
-        border-radius: 20px;
+        left: -200px;
     }
 
-    .container{
-        left: 0;
-        padding-top: 100px;
-        perspective: 1200px;
-    }
-
-    .carousel__face{
-        height: 100px;
-        width: 200px;
-    }
-
-    .carousel__face span {
-        font-size: 18px;
-        line-height: 20px;
-    }
-
-/*------------------------WEAPONS-----------------------------*/
-
-    .weapons-section{
-        padding: 30px 25px;
-        flex-direction: column;
-    }
-
-    .weapons-section__card{
-        width: 100%;
-    }
-
-    .weapons-section__upper-line{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .weapons-section__card:nth-child(2){
-        margin-left: 0;
-    }
-
-    .weapons-section__card{
-        margin-bottom: 25px;
-    }
-
-    .weapons-section__card-hr{
-        margin: 2px 0;
-    }
-
-    /*------------------photo-section*/
-
-    .photo-section__first-line{
-        flex-direction: row;
-        max-height: 220px;
-        justify-content: center;
-    }
-
-    .photo-section__first-photo{
-        width: 45%;
-        margin-right: 0;
-        margin-left: 25px;
-    }
-
-    .photo-section__second-photo{
-        width: 45%;
-        margin-left: 25px;
-    }
-
-    .photo-section__second-line{
-        flex-direction: row;
-        max-height: 220px;
-        justify-content: center;
-    }
-
-    .photo-section__margin-photo{
-        margin: 0;
-    }
-
-    .photo-section__photo-img{
-        height: 50vh;
-    }
-
-    .photo-section::before{
-        height: 70px;
-    }
-
-    .photo-section::after{
-        height: 70px;
-    }
-
-    .zoom{
-        position: absolute;
-        z-index: 5000;
-        width: 90%;
-        height: 210%;
-        box-shadow: 0 0 0 1em #FFF7BD;
-        margin: 0;
-      }
-    
-      .zoomBottom{
-        position: absolute;
-        z-index: 5000;
-        width: 90%;
-        height: 210%;
-        top: -117%;
-        box-shadow: 0 0 0 1em #FFF7BD;
-        margin: 0;
-      }
-
-    /*-------------events----------------*/
-    .events-section{
-        padding:30px 25px
-    }
-
-    .events-section__bottom-div{
-        flex-direction: column;
-    }
-    
-    .events-section__events-div{
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .events-section__events-div h2{
-        font-size: 22px;
-        line-height: 18px;
-    }
-
-    .events-section__form-header{
-        font-size: 22px;
-        line-height: 18px;
-    }
-
-    .events-section__form-input{
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .events-section__form-btn{
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .events-section__form-agreement{
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-
-    /*-------------QUESTION----------------*/
-
-    .question-section{
-        padding: 30px 25px;
-    }
-
-    .question-section__question-div{
-        margin: 30px 0;
-    }
-
-    .question-section__ask-block{
-        width: 90%;
-        padding: 5px;
-    }
-
-    .question-section__ask-block h5{
+    .modes-section__bookmark h6{
         font-size: 16px;
-        line-height: 20px;
-    }
-
-    .question-section__answer-block{
-        width: 90%;
-        margin-left: 10%;
-        padding: 5px;
-    }
-
-    .question-section__answer-block h5{
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    /*---------------------PRICE--------------*/
-    .price-section{
-        padding: 30px 25px;
-        overflow: hidden;
-    }
-
-    .price-section__combo-card{
-        width: 100%;
-    }
-
-    .price-section__combo-card-name-of-combo{
-        margin-bottom: 0;
-    }
-
-    .price-section__combo-card-name-of-mode{
-        font-size: 16px;
-        line-height: 20px;
-        margin-bottom: 0;
-    }
-
-    .price-section__combo-card-number-of-shots-fired p{
-        margin-bottom: 0;
-    }
-
-    .price-section__combo-card-price{
-        font-size: 22px;
-        line-height: 30px;
-        margin-bottom: 2px;
-    }
-
-    .price-section__cards-line{
-        flex-direction: column;
-    }
-
-    .price-section__prize-cards{
-        flex-direction: column;
-    }
-
-    .price-section__right-column{
-        flex-direction: column;
-    }
-
-    /*---------FOOTER-------------*/
-
-    .footer{
-        padding: 30px 25px;
-        flex-direction: column-reverse;
-    } 
-
-    .footer__info{
-        padding-right: 0;
-        flex-direction: column;
-    }
-
-    .footer__tiger-img{
-        left: -20%;
-        width: 140px;
-    }
-
-    .footer__upper{
-        padding-left: 0;
-    }
-
-    .footer__contacts-text-header{
-        font-size: 22px;
-        line-height: 27px;
-    }
-
-    .footer__contacts-text-adress{
-        font-size: 14px;
-        line-height: 18px;
-    }
-
-    .footer__contacts-text-phone{
-        font-size: 10px;
-        line-height: 14px;
-    }
-
-    .footer__contacts-text-email{
-        font-size: 10px;
-        line-height: 14px;
-    }
-
-    .footer__contacts-text-operating-mode h5{
-        font-size: 14px;
-        line-height: 18px;
-    }
-
-    .footer__messagers{
-        margin-left: 0;
-    }
-
-    .footer__map{
-        margin-left: 0;
-        min-height: 0;
-    }
-
-    .footer__map iframe{
-        height: 400px;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    .start-section{
-        padding: 0 40px;
-    }
-    
-    .row-reverse{
-        flex-direction: row;
-    }
-
-    .modes-section{
-        padding: 0 40px; 
+        line-height: 24px;
     }
 
     .modes-section__card{
-        padding: 15px;
+        padding: 20px;
+    }
+
+    .modes-section__card h4{
+        font-size: 22px;
+        line-height: 26px;
     }
 
     .weapons-section{
-        padding: 30px 40px; 
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .weapons-section__card{
-        width: 100%;
-    }
-
-    .weapons-section__card:nth-child(2){
-        margin-bottom: 0;
-    }
-
-    .weapons-section__first-veapon-card{
-        margin-bottom: 0;
-    }
-
-    .weapons-section__promising-veapon {
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .weapons-section__promising-veapon-card{
-        width: 45%;
-        height: 40%;
-    }
-
-    .weapons-section__promising-veapon-card img{
-        height: 170px;
-        width: 170px;
-    }
-
-    .weapons-section__promising-veapon-card-two {
-        margin-left: 25px;
-    }
-
-    .photo-section__photo-img{
-        height: 50vh;
-    }
-
-    .photo-section::before{
-        height: 70px;
-    }
-
-    .photo-section::after{
-        height: 70px;
-    }
-
-    /*-------------events----------------*/
-
-    .events-section{
-        padding:30px 40px
-    }
-
-    .accordion-body{
-        padding: 0 10px;
-    }
-
-    .accordion-body p{
-        font-size: 12px;
-        line-height: 16px;
-    }
-
-    .events-section__button{
-        padding: 0 10px;
-    }
-
-    .events-section__button a button{
-        font-size: 12px;
-        line-height: 16px;
-        padding: 3px;
-        border-radius: 7px;
-    }
-
-    .events-section__bottom-div{
-        flex-direction: row;
-    }
-
-    .events-section__events-div{
-        width: 40%;
-    }
-
-    .events-section__form-div{
-        width: 50%;
-    }
-
-    .question-section{
-        padding: 30px 40px;
-    }
-
-    .question-section__answer-block{
-        padding: 10px;
-    }
-    
-    .question-section__ask-block{
-        padding: 10px;
-    }
-
-    .price-section{
-        padding: 30px 40px;
-    }
-
-    .footer__tiger-img{
-        width: 200px;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 768px) {
-
-    .start-section{
-        padding: 0 60px;
-    }
-
-    .start-section__icons-bar-block{
-        justify-content: center;
-    }
-
-    .modes-section{
-        padding: 0 60px;
-    }
-
-    .weapons-section{
-        padding: 30px 60px;
-    }
-
-    .weapons-section__promising-veapon-card{
-        height: 48%;
-    }
-
-    .weapons-section__promising-veapon-card img{
-        height: 180px;
-        width: auto;
-    }
-
-    .photo-section__photo-img{
-        height: 70vh;
+        padding: 80px 200px;
     }
 
     .events-section{
-        padding: 30px 60px;
-    }
-
-    .events-section__events-div{
-        width: 50%;
-    }
-
-    .events-section__form-div{
-        width: 40%;
-    }
-
-    .question-section{
-        padding: 30px 60px;
-    }
-
-    .question-section__ask-block h5{
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .question-section__answer-block h5{
-        font-size: 18px;
-        line-height: 22px;
+        padding: 80px 200px;
     }
 
     .price-section{
-        padding: 30px 60px;
-    }
-
-    .footer__contacts-text-adress{
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .footer__tiger-img{
-        left: -15%;
-    }
-
-    .footer__contacts-text-phone{
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .footer__contacts-text-email{
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .footer__contacts-text-operating-mode h5{
-        font-size: 16px;
-        line-height: 20px;
+        padding: 80px 200px;
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1150px) {
     .header__nav{
-        padding: 0 20px
+        padding: 0 100px
     }
 
     .header__nav-a{
@@ -626,24 +76,99 @@
     }
 
     .start-section{
-        padding: 0 90px
+        padding: 0 100px
     }
-
+    
     .modes-section{
-        padding: 0 80px;
+        padding: 40px 100px;
         height: auto;
     }
 
-    .modes-section__cards-question{
-        margin-bottom: 20px;
+    .modes-section__card{
+        padding: 15px;
     }
 
-    .modes-section__card-yellow {
-        margin: 15px 0;
+    .modes-section__card h4{
+        font-size: 18px;
+    }
+
+    .modes-section__card-text-block{
+        gap: 10px;
     }
 
     .modes-section__bookmark{
-        left: -90px;
+        left: -100px;
+        width: 100%;
+        height: auto;
+    }
+
+    .weapons-section{
+        padding: 40px 100px;
+    }
+
+    .weapons-section__promising-veapon{
+        width: 30%;
+        padding-right: 0;
+    }
+
+    .photo-section__photo-img{
+        height: 80vh;
+    }
+
+    .events-section{
+        padding: 40px 100px;
+    }
+
+    .price-section{
+        padding: 40px 100px;
+    }
+
+    .footer__info{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header__nav{
+        padding: 0 80px
+    }
+
+    .header__nav-a{
+        font-size: 16px;
+    }
+
+    .start-section{
+        padding: 0 80px
+    }
+
+    .modes-section{
+        padding: 40px 80px;
+        height: auto;
+    }
+
+    .modes-section__carusel-content{
+        width: 30%;
+    }
+
+    .modes-section__card-place{
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .modes-section__card{
+        padding: 12px;
+    }
+
+    .modes-section__card-header-block h3{
+        font-size: 22px;
+    }
+
+    .modes-section__card h4{
+        font-size: 16px;
+    }
+
+    .modes-section__bookmark{
+        left: -80px;
         width: 100%;
     }
 
@@ -659,10 +184,6 @@
 
     .weapons-section__first-veapon-card{
         margin-bottom: 0;
-    }
-
-    .weapons-section__card:nth-child(2){
-        margin-left: 60px;
     }
 
     .weapons-section__promising-veapon{
@@ -686,25 +207,20 @@
         padding: 40px 80px;
     }
 
-    .question-section{
-        padding: 40px 80px;
+    .events-section__central-block-icons{
+        padding: 40px;
     }
 
-    .question-section__question-div{
-        margin: 30px 0;
+    .events-section__central-block-text{
+        gap: 10px;
     }
 
-    .question-section__ask-block{
-        width: 80%;
-    }
-
-    .question-section__answer-block{
-        width: 90%;
-        margin-left: 10%
+    .events-section__bottom-block{
+        margin-right: 20px;
     }
 
     .price-section{
-        padding: 40px 60px;
+        padding: 40px 80px;
     }
 
     .price-section__row {        
@@ -830,151 +346,631 @@
 
 }
 
-@media screen and (min-width: 961px) and (max-width: 1150px) {
+@media screen and (max-width: 768px) {
+
     .header__nav{
-        padding: 0 100px
+        display: none;
     }
 
-    .header__nav-a{
-        font-size: 16px;
+    .nav-container{
+        display: block;
+        position: relative;
+    }
+
+    .active-nav-a{
+        color: #ECECEC;
+        text-decoration: none;
+        border-bottom: none;
+    }
+
+    .header__nav {
+        padding: 0 15px;
     }
 
     .start-section{
-        padding: 0 100px
-    }
-
-    
-    .modes-section{
-        padding: 0 100px;
+        padding: 0 60px;
         height: auto;
+        position: relative;
     }
 
-    .modes-section__card{
-        margin-bottom: 20px;
+    .start-section__central-content{
+        flex-direction: column;
     }
 
-    .modes-section__bookmark{
-        left: -100px;
+    .start-section__img-logo{
+        position: absolute;
         width: 100%;
-        height: auto;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        justify-content: flex-start;
     }
 
-    .weapons-section{
-        padding: 40px 100px;
+    .start-section__img-logo img{
+        margin-top: 40px;
+        height: 100px;
+        width: auto;
     }
 
-    .weapons-section__promising-veapon{
-        width: 30%;
-        padding-right: 0;
+    .start-section__yellow-text-block{
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        justify-content: center;
     }
 
-
-    .photo-section__photo-img{
-        height: 80vh;
+    .start-section__text-logo{
+        z-index: 10;
+        margin-top: 20px;
     }
 
-    .events-section{
-        padding: 40px 100px;
-    }
-
-    .question-section{
-        padding: 40px 100px;
-    }
-
-    .question-section__question-div{
-        margin: 30px 0;
-    }
-
-    .question-section__ask-block{
-        width: 80%;
-    }
-
-    .question-section__answer-block{
-        width: 90%;
-        margin-left: 10%
-    }
-
-    .price-section{
-        padding: 40px 100px;
-    }
-
-    .footer__info{
-        padding-right: 0;
-    }
-}
-
-@media screen and (min-width: 1441px) {
-    .header__nav{
-        padding: 0 200px;
-    }
-
-    .start-section{
-        padding: 0 200px;
-    }
-
-    .header__nav-a{
-        font-size: 20px;
-    }
-
-    .header__nav-a:hover {
-        font-size: 21px;
+    .start-section__text-tiger-tir{
+        padding: 10px 0;
+        background:  radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), transparent , transparent);
     }
 
     .start-section__text-multi-tir{
-        font-size: 26px;
-        line-height: 32px;
+        padding: 10px 0;
+        background:  radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05) , transparent);
     }
 
-    .start-section__text-tir-description{
-        font-size: 18px;
-        line-height: 24px;
+    .start-section__submit-btn{
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .start-section__icons-bar{
+        flex-direction: column;
+        height: auto;
     }
 
     .start-section__icons-bar-block h6{
-        font-size: 18px;
-        line-height: 25px;
+        margin-right: 15px;
     }
+
+    .row-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .start-section__icons-bar-block{
+        width: 100%;
+        margin: 10px 0;
+        justify-content: center;
+    }
+
+/*------------------------MODES-----------------------------*/
 
     .modes-section{
-        padding: 0 200px;
+        padding: 0 60px;
+        height: auto;
+        overflow: hidden;
     }
 
-    .modes-section__bookmark{
-        left: -200px;
+    .modes-section__central-content{
+        flex-direction: column-reverse;
     }
 
-    .modes-section__bookmark h6{
-        font-size: 16px;
-        line-height: 24px;
+    .modes-section__card-place{
+        width: 100%;
+        flex-direction: row;
     }
 
-    .modes-section__cards-question{
-        font-size: 32px;
-        line-height: 35px;
+    .modes-section__card-header-block{
+        flex-direction: column-reverse;
     }
 
-    .modes-section__card{
-        padding: 20px;
+    .modes-section__card-header-block h3{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .modes-section__carusel-content{
+        width: 100%;
+        margin-top: 20px;
     }
 
     .modes-section__card h4{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .modes-section__bookmark{
+        left: 0;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .container{
+        left: 0;
+        padding-top: 100px;
+        perspective: 1200px;
+    }
+
+    .carousel__face{
+        height: 100px;
+        width: 200px;
+    }
+
+    .carousel__face span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+/*------------------------WEAPONS-----------------------------*/
+
+    .weapons-section{
+        padding: 30px 60px;
+        flex-direction: column;
+    }
+
+    .weapons-section__card{
+        width: 100%;
+    }
+
+    .weapons-section__card-name{
+        font-size: 18px;
+    }
+
+    .weapons-section__upper-line{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .weapons-section__card:nth-child(2){
+        margin-left: 0;
+    }
+
+    .weapons-section__card-text-header{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+
+    .weapons-section__card-text-pararg{
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .weapons-section__card-hr{
+        margin: 6px 0;
+    }
+
+    .carousel-indicators{
+        margin: 0;
+    }
+
+    /*------------------photo-section*/
+
+    .photo-section__first-line{
+        flex-direction: row;
+        max-height: 220px;
+        justify-content: center;
+    }
+
+    .photo-section__first-photo{
+        width: 45%;
+        margin-right: 0;
+        margin-left: 25px;
+    }
+
+    .photo-section__second-photo{
+        width: 45%;
+        margin-left: 25px;
+    }
+
+    .photo-section__second-line{
+        flex-direction: row;
+        max-height: 220px;
+        justify-content: center;
+    }
+
+    .photo-section__margin-photo{
+        margin: 0;
+    }
+
+    .photo-section__photo-img{
+        height: 50vh;
+    }
+
+    .photo-section::before{
+        height: 70px;
+    }
+
+    .photo-section::after{
+        height: 70px;
+    }
+
+    .zoom{
+        position: absolute;
+        z-index: 5000;
+        width: 90%;
+        height: 210%;
+        box-shadow: 0 0 0 1em #FFF7BD;
+        margin: 0;
+      }
+    
+      .zoomBottom{
+        position: absolute;
+        z-index: 5000;
+        width: 90%;
+        height: 210%;
+        top: -117%;
+        box-shadow: 0 0 0 1em #FFF7BD;
+        margin: 0;
+      }
+
+    /*-------------events----------------*/
+    .events-section{
+        padding: 30px 60px
+    }
+
+    .events-section__bottom-div{
+        flex-direction: column;
+    }
+    
+    .events-section__events-div{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .events-section__events-div h2{
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .events-section__central-block-icons{
+        padding: 20px;
+    }
+
+    .events-section__bottom-block{
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .events-section__central-block-text p{
+        font-size: 16px;   
+    }
+
+    .events-section__central-block-icons img{
+        height: 30px;
+    }
+
+    .events-section__central-block-icons p{
+        font-size: 16px;
+    }
+
+    .events-section__bottom-text-block{
+        font-size: 16px;
+    }
+
+    .events-section__bottom-price-block img{
+        height: 80px;
+    }
+
+    .events-section__bottom-price-block img{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .events-section__form-div{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .events-section__form-header{
         font-size: 22px;
-        line-height: 26px;
+        line-height: 18px;
+    }
+
+    .events-section__form-input{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .events-section__form-btn{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .events-section__form-agreement{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /*---------------------PRICE--------------*/
+    .price-section{
+        padding: 30px 60px;
+        overflow: hidden;
+    }
+
+    .price-section__combo-card{
+        width: 100%;
+    }
+
+    .price-section__combo-card-name-of-combo{
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-name-of-mode{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-number-of-shots-fired p{
+        margin-bottom: 0;
+    }
+
+    .price-section__combo-card-price{
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 2px;
+    }
+
+    .price-section__cards-line{
+
+    }
+
+    .price-section__prize-cards{
+
+    }
+
+    .price-section__right-column{
+        flex-direction: column;
+    }
+
+    /*---------FOOTER-------------*/
+
+    .footer{
+        padding: 30px 25px;
+        flex-direction: column-reverse;
+    } 
+
+    .footer__info{
+        padding-right: 0;
+        flex-direction: column;
+    }
+
+    .footer__tiger-img{
+        left: -20%;
+        width: 140px;
+    }
+
+    .footer__upper{
+        padding-left: 0;
+    }
+
+    .footer__contacts-text-header{
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .footer__contacts-text-adress{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__contacts-text-phone{
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .footer__contacts-text-email{
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .footer__contacts-text-operating-mode h5{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer__messagers{
+        margin-left: 0;
+    }
+
+    .footer__map{
+        margin-left: 0;
+        min-height: 0;
+    }
+
+    .footer__map iframe{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+/*
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .start-section{
+        padding: 0 40px;
+    }
+    
+    .row-reverse{
+        flex-direction: row;
+    }
+
+    .modes-section{
+        padding: 0 40px; 
+    }
+
+    .modes-section__card{
+        padding: 15px;
     }
 
     .weapons-section{
-        padding: 80px 200px;
+        padding: 30px 40px; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .weapons-section__card{
+        width: 100%;
+    }
+
+    .weapons-section__card:nth-child(2){
+        margin-bottom: 0;
+    }
+
+    .weapons-section__first-veapon-card{
+        margin-bottom: 0;
+    }
+
+    .weapons-section__promising-veapon {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .weapons-section__promising-veapon-card{
+        width: 45%;
+        height: 40%;
+    }
+
+    .weapons-section__promising-veapon-card img{
+        height: 170px;
+        width: 170px;
+    }
+
+    .weapons-section__promising-veapon-card-two {
+        margin-left: 25px;
+    }
+
+    .photo-section__photo-img{
+        height: 50vh;
+    }
+
+    .photo-section::before{
+        height: 70px;
+    }
+
+    .photo-section::after{
+        height: 70px;
     }
 
     .events-section{
-        padding: 80px 200px;
+        padding:30px 40px
     }
 
-    .question-section{
-        padding: 80px 200px;
+    .accordion-body{
+        padding: 0 10px;
+    }
+
+    .accordion-body p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .events-section__button{
+        padding: 0 10px;
+    }
+
+    .events-section__button a button{
+        font-size: 12px;
+        line-height: 16px;
+        padding: 3px;
+        border-radius: 7px;
+    }
+
+    .events-section__bottom-div{
+        flex-direction: row;
+    }
+
+    .events-section__events-div{
+        width: 40%;
+    }
+
+    .events-section__form-div{
+        width: 50%;
     }
 
     .price-section{
-        padding: 80px 200px;
+        padding: 30px 40px;
     }
-}   
+
+    .footer__tiger-img{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .start-section{
+        padding: 0 60px;
+    }
+
+    .start-section__icons-bar-block{
+        justify-content: center;
+    }
+
+    .modes-section{
+        padding: 0 60px;
+    }
+
+    .weapons-section{
+        padding: 30px 60px;
+    }
+
+    .weapons-section__promising-veapon-card{
+        height: 48%;
+    }
+
+    .weapons-section__promising-veapon-card img{
+        height: 180px;
+        width: auto;
+    }
+
+    .photo-section__photo-img{
+        height: 70vh;
+    }
+
+    .events-section{
+        padding: 30px 60px;
+    }
+
+    .events-section__events-div{
+        width: 50%;
+    }
+
+    .events-section__form-div{
+        width: 40%;
+    }
+
+    .price-section{
+        padding: 30px 60px;
+    }
+
+    .footer__contacts-text-adress{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__tiger-img{
+        left: -15%;
+    }
+
+    .footer__contacts-text-phone{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__contacts-text-email{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__contacts-text-operating-mode h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+*/

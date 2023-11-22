@@ -259,7 +259,7 @@ p{
 
 .start-section__submit-btn{
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
@@ -293,7 +293,7 @@ p{
 
 .start-section__icons-bar-block h6 {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 22px;
     color: #ECECEC;
 }
 
@@ -360,7 +360,7 @@ MODES
 
 .modes-section__bookmark h6{
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     text-align: left;
     color: #CCCCCC;
@@ -378,10 +378,7 @@ MODES
 .modes-section__card{
     width: 100%;
     height: auto;
-    padding: 20px;
     border-radius: 10px;
-    box-shadow: 4px 3px 8px 0px #003333;
-    background:rgba(228, 255, 200, 0.9);
     background-blend-mode: screen;
 }
 
@@ -390,10 +387,16 @@ MODES
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(228, 255, 200, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .modes-section__card-header-block h3{
     font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 0;
 }
 
 .modes-section__card-header-block img{
@@ -408,8 +411,12 @@ MODES
 
 .modes-section__card h4{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 22px;
     color: rgba(0, 0, 0, 0.8);
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
 }
 
 .modes-section::after{
@@ -456,15 +463,16 @@ WEAPONS
 .weapons-section__upper-line{
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .weapons-section__card{
     padding: 12px;
     background-color: #ECECEC;
-    border-radius: 15px;
+    border-radius: 10px;
     height: auto;
     z-index: 10;
-    width: 47%;
+    width: 100%;
 }
 
 .weapons-section__card-carusel{
@@ -484,15 +492,15 @@ WEAPONS
 
 .weapons-section__card-name{
     font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 24px;
+    line-height: 30px;
     color: #353535;
     text-align: center;
 }
 
 .weapons-section__card-text-header{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 22px;
     font-weight: bold;
     letter-spacing: 0.09em;
     color: #353535;
@@ -501,8 +509,7 @@ WEAPONS
 
 .weapons-section__card-text-pararg{
     font-size: 16px;
-    line-height: 16px;
-    line-height: 30px;
+    line-height: 22px;
     color: #353535;
 }
 
@@ -518,16 +525,6 @@ WEAPONS
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.weapons-section__promising-veapon-card{
-    background-color: #c5c5c5;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 10;
 }
 
 .weapons-section__first-veapon-card{
@@ -619,12 +616,6 @@ PHOTO
     background: linear-gradient(to top, #003333, transparent); 
 }
 
-/*
-------------------
-EVENTS 
-------------------
-*/
-
 .events-section::before{
     content: ''; 
     position: absolute; 
@@ -644,8 +635,6 @@ EVENTS
     background-size: cover;
 }
 
-/*-----------------*/
-
 .accordion-body{
     background-color: #003333;
 }
@@ -657,33 +646,6 @@ EVENTS
     letter-spacing: 0.045em;
     text-shadow: 1px 1px #000000;
 }
-
-/*-----------------*/
-
-.events-section__button{
-    width: 100%;
-    padding: 0 20px;
-    border-radius: 15px;
-}
-
-.events-section__button a{
-    height: 100%;
-}
-
-.events-section__button a button{
-    background-color: #FFE925;
-    width: 100%;
-    padding: 7px;
-    border-radius: 15px;
-    color: #003333;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.045em;
-}
-
-/*--bottom--*/
 
 .events-section__bottom-div{
     display: flex;
@@ -699,8 +661,8 @@ EVENTS
 
 .events-section__events-div h2{
     font-weight: 700;
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 30px;
     color: #FFF8BC;
 }
 
@@ -719,7 +681,8 @@ EVENTS
 
 .events-section__central-block-text p{
     color: #E3E3E3;
-    font-size: 1.1em;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .events-section__central-block-icons{
@@ -745,24 +708,25 @@ EVENTS
 .events-section__central-block-icons p {
     text-align: center;
     color: #E3E3E3;
-    font-size: 1.1em;
+    font-size: 20px;
 }
 
 .events-section__bottom-block{
     display: flex;
     gap: 10px;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-right: 60px;
     box-shadow: 4px 3px 8px 0px #003333;
-    background: linear-gradient(#ffffffe6, transparent), linear-gradient(to top left, #F2F2F2, transparent), linear-gradient(to top right, #faf2ffe6, transparent);
+    background-color: #fff7bde6;
     background-blend-mode: screen;
     align-items: center;
 }
 
 .events-section__bottom-text-block{
     color: rgba(0, 0, 0, 0.8);
-    font-size: 1.1em;
+    font-size: 20px;
+    line-height: 26px;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -782,6 +746,7 @@ EVENTS
 
 .events-section__bottom-price-text-block h6{
     font-size: 24px;
+    line-height: 30px;
     color: #FFE925;
     text-align: center;
     font-weight: bold;
@@ -802,7 +767,7 @@ EVENTS
 .events-section__form-and-anchor{
     position: relative;
     box-shadow: -3px 3px 6px #0000007a;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #sign-up-for-services-form{
@@ -821,7 +786,7 @@ EVENTS
                 0 200px 70px -120px #3db7b7 inset,
                 0 300px 70px -120px #a27dff inset;
     animation: background 8s infinite alternate;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -847,8 +812,8 @@ EVENTS
 
 .events-section__form-header{
     font-weight: 700;
-    font-size: 26px;
-    line-height: 18px;
+    font-size: 24px;
+    line-height: 30px;
     text-align: center;
     color: #efefef;
     padding-bottom: 10px;
@@ -856,10 +821,10 @@ EVENTS
 
 .events-section__form-input{
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 0px;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 22px;
     margin: 10px 0;
 }
 
@@ -875,7 +840,7 @@ EVENTS
     background-color: #FFE925;
     width: 100%;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #5b5b5b;
     font-weight: 700;
     font-size: 16px;
@@ -897,7 +862,7 @@ EVENTS
 .events-section__form-success{
     display: flex;
     background:  #a27dff;
-    border-radius: 15px;
+    border-radius: 10px;
     height: 100%;
     box-shadow: 0 100px 70px -120px plum inset,
                 0 200px 70px -120px #3db7b7 inset,
@@ -934,19 +899,6 @@ EVENTS
     background: linear-gradient(to top, #003333, transparent); 
 }
 
-
-/*
-------------------
-QUESTION 
-------------------
-*/
-
-/*
-------------------
-PRICE 
-------------------
-*/
-
 .price-section::before{
     content: ''; 
     position: absolute; 
@@ -967,18 +919,15 @@ PRICE
     background-size: cover;
 }
 
-/*------*/
-
 .price-section__row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 60px;
 }
 
 .price-section__left-column{
     display: flex;
-    flex-direction: column;
-    width: 70%;
+    flex-direction: row;
     gap: 60px;
 }
 
@@ -986,6 +935,7 @@ PRICE
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    width: 70%;
 }
 
 .price-section__header{
@@ -994,8 +944,8 @@ PRICE
     z-index: 20;
     width: 100%;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 22px;
+    font-size: 24px;
+    line-height: 30px;
     color: #ECECEC;
 }
 
@@ -1009,6 +959,7 @@ PRICE
     display: flex;
     gap: 20px;
     flex-direction: column;
+    width: 70%;
 }
 
 .price-section__prize-cards{
@@ -1019,8 +970,8 @@ PRICE
 
 .price-section__prize-card{
     padding: 20px;
-    background-color: #033333;
-    border-radius: 15px;
+    background-color: #358888;
+    border-radius: 10px;
     width: 100%;
     gap: 10px;
     display: flex;
@@ -1033,9 +984,9 @@ PRICE
     z-index: 20;
     width: 100%;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 22px;
-    color: hsla(54, 100%, 57%);
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffe924;
 }
 
 .price-section__prize-card-subtitle{
@@ -1048,14 +999,14 @@ PRICE
 
 .price-section__prize-card-subtitle h6{
     font-size: 20px;
-    line-height: 24px;
+    line-height: 26px;
     letter-spacing: 0.04em;
     color: #FFF8BC;
 }
 
 .price-section__prize-card-paragraph{
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 20px;
+    line-height: 26px;
     color: #E3E3E3;
 }
 
@@ -1065,9 +1016,8 @@ PRICE
 }
 
 .price-section__right-column{
-    width: 40%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 60px;
     position: relative;
     z-index: 20;
@@ -1077,32 +1027,42 @@ PRICE
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
+    width: 30%;
+    position: relative;
+    z-index: 20;
 }
 
 .price-section__stock-card{
     padding: 15px;
     background-color: #033333;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 100%;
+    height: 100%;
     gap: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.price-section__stock-card-super{
+    background-color: #883535;
+    height: auto;
 }
 
 .price-section__stock-card-text{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
     gap: 20px;
     align-items: center;
 }
 
 .price-section__stock-card-text h4{
     color: #FFF8BC;
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .price-section__stock-card-text h5{
@@ -1122,25 +1082,37 @@ PRICE
     align-items: center;
 }
 
-.price-section__stock-card-game-text p{
-    color: #E3E3E3;
-    font-size: 30px;
+.psscgt{
+    align-items: flex-start;
+}
+
+.psscgt div{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    margin-bottom: 15px;
+}
+
+.psscgt h3{
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
 }
 
 .price-section__stock-card-game-text h3{
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 24px;
+    line-height: 30px;
     text-align: center;
     letter-spacing: 0.04em;
     margin-top: 10px;
     color: hsla(54, 100%, 57%);
+    margin: 0;
 }
-/*------*/
 
 .price-section__combo-card{
     width: 100%;
     background-color: #033333;
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
     z-index: 100;
 }
@@ -1162,12 +1134,14 @@ PRICE
     line-height: 23px;
     color: #E3E3E3;
     text-align: center;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .price-section__combo-card-text h3{
     font-weight: 700;
-    font-size: 30px;
-    line-height: 46px;
+    font-size: 24px;
+    line-height: 30px;
     text-align: center;
     color: #FFE925;
 }
@@ -1179,8 +1153,8 @@ PRICE
 }
 
 .price-section__combo-card-name-of-mode{
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFF8BC;
@@ -1200,12 +1174,13 @@ PRICE
     display: flex;
     justify-content: center;
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .price-section__combo-card-price{
     font-size: 24px;
-    line-height: 34px;
+    line-height: 30px;
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFF8BC;
@@ -1279,20 +1254,20 @@ FOOTER
 }
 
 .footer__contacts-text-header{
-    font-size: 32px;
-    line-height: 37px;
+    font-size: 24px;
+    line-height: 30px;
     color: #FFE925;
 }
 
 .footer__contacts-text-adress{
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 26px;
     color: #DADADA;
 }
 
 .footer__contacts-text-phone{
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 26px;
     color: #DADADA;
     transition: all 0.2s ease;
 }
@@ -1303,8 +1278,8 @@ FOOTER
 }
 
 .footer__contacts-text-email{
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 26px;
     color: #DADADA;
     transition: all 0.2s ease;
 }
@@ -1315,9 +1290,14 @@ FOOTER
 }
 
 .footer__contacts-text-operating-mode{
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 26px;
     color: #DADADA;
+}
+
+.footer__contacts-text-operating-mode h5{
+    font-size: 20px;
+    line-height: 26px; 
 }
 
 .footer__messagers{

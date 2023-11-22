@@ -84,14 +84,6 @@
         height: auto;
     }
 
-    .modes-section__card{
-        padding: 15px;
-    }
-
-    .modes-section__card h4{
-        font-size: 18px;
-    }
-
     .modes-section__card-text-block{
         gap: 10px;
     }
@@ -155,16 +147,20 @@
         width: 70%;
     }
 
-    .modes-section__card{
-        padding: 12px;
+    .modes-section__card-header-block{
+        margin-bottom: 12px;
     }
-
+    
     .modes-section__card-header-block h3{
         font-size: 22px;
     }
 
     .modes-section__card h4{
         font-size: 16px;
+    }
+
+    .modes-section__card-text-block{
+        gap: 8px;
     }
 
     .modes-section__bookmark{
@@ -178,8 +174,8 @@
         justify-content: space-between
     }
 
-    .weapons-section__card{
-        width: 45%;
+    .weapons-section__upper-line{
+        gap: 20px;
     }
 
     .weapons-section__first-veapon-card{
@@ -224,7 +220,7 @@
     }
 
     .price-section__row {        
-        flex-direction: column;
+        gap: 40px;
     }
 
     .price-section__prize-card-subtitle h6{
@@ -239,13 +235,11 @@
     }
 
     .price-section__left-column{
-        width: 100%;
+        gap: 40px;
     }
 
     .price-section__right-column{
-        flex-direction: row;
-        width: 100%;
-        gap: 20px;
+        gap: 40px;
     }
 
     .price-section__combo-card-text{
@@ -259,6 +253,10 @@
 
     .price-section__prize-card{
         padding: 10px;
+    }
+
+    .price-section__prize-card-header{
+        font-size: 24px;
     }
 
     .price-section__stock-card-text h4{
@@ -498,15 +496,9 @@
         line-height: 20px;
     }
 
-/*------------------------WEAPONS-----------------------------*/
-
     .weapons-section{
         padding: 30px 60px;
         flex-direction: column;
-    }
-
-    .weapons-section__card{
-        width: 100%;
     }
 
     .weapons-section__card-name{
@@ -519,8 +511,8 @@
         gap: 20px;
     }
 
-    .weapons-section__card:nth-child(2){
-        margin-left: 0;
+    .weapons-section__card{
+        padding: 6px;
     }
 
     .weapons-section__card-text-header{
@@ -541,8 +533,6 @@
     .carousel-indicators{
         margin: 0;
     }
-
-    /*------------------photo-section*/
 
     .photo-section__first-line{
         flex-direction: row;
@@ -572,7 +562,7 @@
     }
 
     .photo-section__photo-img{
-        height: 50vh;
+        height: 60vh;
     }
 
     .photo-section::before{
@@ -680,10 +670,37 @@
         line-height: 16px;
     }
 
-    /*---------------------PRICE--------------*/
     .price-section{
         padding: 30px 60px;
         overflow: hidden;
+    }
+
+    .price-section__left-column{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .price-section__cards-block{
+        width: 100%;
+    }
+
+    .price-section__stock-block{
+        width: 100%;
+    }
+
+    .price-section__right-column{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .price-section__prize-promotions{
+        width: 100%;
+    }
+
+    .psscgt div{
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 10px;
     }
 
     .price-section__combo-card{
@@ -710,20 +727,6 @@
         margin-bottom: 2px;
     }
 
-    .price-section__cards-line{
-
-    }
-
-    .price-section__prize-cards{
-
-    }
-
-    .price-section__right-column{
-        flex-direction: column;
-    }
-
-    /*---------FOOTER-------------*/
-
     .footer{
         padding: 30px 25px;
         flex-direction: column-reverse;
@@ -735,12 +738,14 @@
     }
 
     .footer__tiger-img{
-        left: -20%;
-        width: 140px;
+        left: -12%;
+        width: 160px;
     }
 
     .footer__upper{
         padding-left: 0;
+        justify-content: center;
+        padding-top: 60px;    
     }
 
     .footer__contacts-text-header{

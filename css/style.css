@@ -308,12 +308,6 @@ p{
     width: 100vw;
 }
 
-/*
-------------------
-MODES 
-------------------
-*/
-
 .modes-section::before{ 
     content: ''; 
     position: absolute; 
@@ -830,8 +824,8 @@ PHOTO
 
 .events-section__form-input-date{
     display:block;
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
+    /*-webkit-appearance: textfield;
+    -moz-appearance: textfield;*/
     min-height: 1.2em;
     width: 100%;
 }

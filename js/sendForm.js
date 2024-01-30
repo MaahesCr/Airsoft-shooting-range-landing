@@ -1,36 +1,4 @@
-function sendform(){
-  let name = $('#name-input').val()
-  let date = $('#date-input').val()
-  let phone = $('#phone-input').val() //18
-  let comment = $('#comment-input').val()
-  name = decodeURI(encodeURIComponent(name));
-  comment = decodeURI(encodeURIComponent(comment));
-  if (name.length == 0) {
-    $('#name-input').css({"backgroundColor":"#ffb0b0"});
-  } else if (phone.length != 18) {
-    $('#name-input').css({"backgroundColor":"#fff"});
-    $('#phone-input').css({"backgroundColor":"#ffb0b0"});
-  } else {
-    $('#name-input').css({"backgroundColor":"#fff"});
-    $('#phone-input').css({"backgroundColor":"#fff"});
-
-    Email.send({
-    SecureToken : "39cfacf3-25a8-4034-b1e7-f874cc0ac3e9",
-    To : 'tiger.tir.ekb@gmail.com',
-    From : "tiger.tir.ekb@gmail.com",
-    Subject : "Заявка с TigerTir", 
-    Body : `Имя: ${name}, <br>
-            Дата праздника: ${date}, <br>
-            Телефон: ${phone}, <br>
-            Комментарий: ${comment}` 
-  }).then(
-
-  );
-    $(".events-section__form-shell").fadeOut(); 
-    setTimeout(() => {
-      $(".events-section__form-success").fadeIn();
-      $(".events-section__form-success")
-      .css("display", "flex")
-    }, 500); 
-  }
-}
+function sendform(){let e=$("#name-input").val(),n=$("#date-input").val(),o=$("#phone-input").val(),c=$("#comment-input").val();e=decodeURI(encodeURIComponent(e)),c=decodeURI(encodeURIComponent(c)),0==e.length?$("#name-input").css({backgroundColor:"#ffb0b0"}):18!=o.length?($("#name-input").css({backgroundColor:"#fff"}),$("#phone-input").css({backgroundColor:"#ffb0b0"})):($("#name-input").css({backgroundColor:"#fff"}),$("#phone-input").css({backgroundColor:"#fff"}),Email.send({SecureToken:"39cfacf3-25a8-4034-b1e7-f874cc0ac3e9",To:"tiger.tir.ekb@gmail.com",From:"tiger.tir.ekb@gmail.com",Subject:"Заявка с TigerTir",Body:`Имя: ${e}, <br>
+            Дата праздника: ${n}, <br>
+            Телефон: ${o}, <br>
+            Комментарий: ${c}`}).then(),$(".events-section__form-shell").fadeOut(),setTimeout(()=>{$(".events-section__form-success").fadeIn(),$(".events-section__form-success").css("display","flex")},500))}
